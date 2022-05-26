@@ -1,0 +1,50 @@
+.home-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border: 1px solid red;
+}
+.mobile-info{
+  border: 1px solid black;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time{
+  flex: 10 1 54px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.28px;
+  display: flex;
+  width: 54px;
+  height: 16.41px;
+}
+#time{
+  align-items: center;
+  justify-content: center;
+  }
+.mobile-status{
+  flex: 1 1 auto;
+}
+.logo{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo span{
+  font-family: 'poppins';
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  color: #6070FF;
+  flex:5 1 76px;
+  }
+.main-info{
+  border: 1px solid red;
+}
+.connect{
+  border: 1px solid red;
+}
