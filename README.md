@@ -16,7 +16,7 @@ For any queries or suggestions, you can reach me at any of the channels listed b
 👤 Author
 GitHub: [@Ghostman747](https://github.com/Ghostman747)
 Twitter: [@aquinasmoriasi](https://twitter.com/aquinas747)
-LinkedIn: www.linkedin.com/in/aquinas-moriasi
+LinkedIn: [Aquinas Moriasi](www.linkedin.com/in/aquinas-moriasi)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
