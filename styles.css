@@ -158,13 +158,13 @@ padding: 4px 12px;
 margin-right: 8px;
 }
 
-.resume {
+.resume, #get-resume {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   min-width: 100%;
 }
-.resume a {
+.resume a, #get-resume a {
   text-decoration: none; 
   display: inherit;
   color:rgba(57, 109, 242, 1);
@@ -190,4 +190,48 @@ margin-right: 8px;
 
 .skills, .skills ul, .contact-icons, .lang-buttons li {
   list-style-type: none;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 24px 0 24px;
+  top: 114px;
+  align-items: flex-start;
+}
+
+.my-about h1 {
+  padding-top: 113px;
+  margin: 0;
+  width: 100%;
+}
+.about-myself {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.about-myself p {
+
+}
+
+.contact-info h2{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-info h2 a {
+  text-decoration: none;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-content: center;
+}
+.skills {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
