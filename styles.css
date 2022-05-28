@@ -1,4 +1,32 @@
-body{
-    width: 375px;
-    height: 3913px;
+body {
+  width: 375px;
+  height: 3913px;
+}
+
+.project-list {
+  background-color: #E5E5E5;
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.project1 {
+  width: 327px;
+  height: 552px;
+}
+
+.project2 {
+   width: 327px;
+   height: 596px;
+}
+
+.project3{
+  width: 327px;
+  height: 552px;
+}
+
+.project4{
+  width: 327px;
+  height: 596px;
 }
