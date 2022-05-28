@@ -44,7 +44,7 @@ body {
 
 .project-list {
   display: grid;
-  background-color: rgba(229, 22, 229, 0.3);
+  background-color: rgba(229, 229, 229, 0.3);
   row-gap: 88px;
   height: 2792px;
   width: 100%;
