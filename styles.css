@@ -3,7 +3,7 @@ body {
   height: 3913px;
   margin: 0;
   padding: 0;
-  background-color: mistyrose;
+  /*background-color: rgba(247, 247, 249, 1);*/
 }
 
 .project-list {
@@ -18,34 +18,105 @@ body {
   box-sizing: border-box;
 }
 
-.about {
-    background-color: rgba(255, 255, 255, 1);
-}
-
 .project1 {
-  width: 327px;
+  
   height: 552px;
-  border: 3px solid red;
-  padding: 0;
-  margin: 0;
+  
+  
 }
 
 .project2 {
-   width: 327px;
+   
    height: 596px;
-   border: 3px solid red;
+   
 }
 
 .project3{
-  width: 327px;
+  
   height: 552px;
-  border: 3px solid red;
+  
 }
 
 .project4{
-  width: 327px;
+  
   height: 596px;
+  
+}
+
+.project1, .project2, .project3, .project4 {
+  width: 327px;
   border: 3px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex:1 1 auto;
+  /*color: rgba(255, 255, 255, 1);*/
+  mix-blend-mode: normal;
+  height: 552px;
+  border-radius: 16px;
+}
+
+.project1 h1, .project3 h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 36px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: rgba(23, 43, 77, 1);
+}
+
+.project2 h1, .project4 h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 80px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  color: rgba(23, 43, 77, 1);
+  border: 1px solid red;
+}
+.project1 p, .project2 p, .project3 p, .project4 p {
+  display: flex;
+  width: 236px;
+  padding-top: 0;
+  margin-top: 0;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid red;
+}
+
+.project-description {
+  display: flex;
+  flex: 1 0 none;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.project1-description p, .project2-description p, .project3-description p, .project4-description p {
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25.35px;
+  margin-bottom: 0;
+  width: 100%
 }
 
 .project-list img{
