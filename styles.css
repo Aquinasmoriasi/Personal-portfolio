@@ -144,18 +144,18 @@ body {
 }
 
 .lang-buttons button {
-font-family: "poppins", sans-serif;
-font-size: 12px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: center;
-color: rgba(96, 112, 255, 1);
-border-radius: 8px;
-background-color: #EBEBFF;
-border: none;
-padding: 4px 12px;
-margin-right: 8px;
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: rgba(96, 112, 255, 1);
+  border-radius: 8px;
+  background-color: #EBEBFF;
+  border: none;
+  padding: 4px 12px;
+  margin-right: 8px;
 }
 
 .resume, #get-resume {
