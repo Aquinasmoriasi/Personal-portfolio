@@ -1,10 +1,21 @@
 body {
   width: 375px;
   height: 3913px;
+  margin: 0;
+  padding: 0;
+  background-color: mistyrose;
 }
 
 .project-list {
-  background-color: #E5E5E5;
+  display: grid;
+  row-gap: 88px;
+  height: 2792px;
+  width: 100%;
+  padding: 114px 24px;
+  justify-content: center;
+  align-items: center;
+  grid-auto-flow: row;
+  box-sizing: border-box;
 }
 
 .about {
@@ -14,19 +25,43 @@ body {
 .project1 {
   width: 327px;
   height: 552px;
+  border: 3px solid red;
+  padding: 0;
+  margin: 0;
 }
 
 .project2 {
    width: 327px;
    height: 596px;
+   border: 3px solid red;
 }
 
 .project3{
   width: 327px;
   height: 552px;
+  border: 3px solid red;
 }
 
 .project4{
   width: 327px;
   height: 596px;
+  border: 3px solid red;
+}
+
+.project-list img{
+  width: 295px;
+  height: 220px;
+}
+.contact-icons img{
+  width: 24px;
+  height: 24px;
+}
+
+.technical-details img{
+  width: 303px;
+  height: 66.72px;
+}
+
+.skills, .skills ul, .contact-icons, .lang-buttons li {
+  list-style-type: none;
 }
