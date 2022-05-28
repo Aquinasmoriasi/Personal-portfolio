@@ -3,11 +3,39 @@ body {
   height: 3913px;
   margin: 0;
   padding: 0;
-  /*background-color: rgba(247, 247, 249, 1);*/
+  background-color: rgba(255 255 255 1)
+}
+
+.canopy{
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+}
+.not-canopy{
+  font-family: 'poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #7A869A;
+}
+.highlights {
+  display: flex;
+  justify-content: flex-start;
+}
+.highlights .canopy, .highlights .not-canopy {
+  padding-right: 12px;
+  margin: 0;
+}
+.highlights .not-canopy {
+  padding-left: 12px;
 }
 
 .project-list {
   display: grid;
+  background-color: rgba(229,229,229,0.3);
   row-gap: 88px;
   height: 2792px;
   width: 100%;
@@ -16,45 +44,34 @@ body {
   align-items: center;
   grid-auto-flow: row;
   box-sizing: border-box;
+  border: 1px solid #DFE1E6;
 }
 
-.project1 {
-  
-  height: 552px;
-  
-  
-}
-
-.project2 {
-   
-   height: 596px;
-   
-}
-
-.project3{
-  
-  height: 552px;
-  
-}
-
-.project4{
-  
-  height: 596px;
-  
-}
-
-.project1, .project2, .project3, .project4 {
+.project1, .project3{
   width: 327px;
-  border: 3px solid red;
+  height: 552px;
+  border: 1px solid rgba(223, 225, 230, 1);
   display: flex;
   flex-wrap: wrap;
   padding: 16px;
   box-sizing: border-box;
   flex-direction: column;
   flex:1 1 auto;
-  /*color: rgba(255, 255, 255, 1);*/
-  mix-blend-mode: normal;
-  height: 552px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.project2, .project4 {
+  width: 327px;
+  height: 596px;
+  border: 1px solid rgba(223, 225, 230, 1);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex:1 1 auto;
   border-radius: 16px;
 }
 
@@ -68,7 +85,6 @@ body {
   height: 36px;
   margin-top: 12px;
   margin-bottom: 0;
-  padding-bottom: 20px;
   color: rgba(23, 43, 77, 1);
 }
 
@@ -82,50 +98,89 @@ body {
   height: 80px;
   margin-top: 12px;
   margin-bottom: 0;
-  padding-bottom: 20px;
   color: rgba(23, 43, 77, 1);
-  border: 1px solid red;
-}
-.project1 p, .project2 p, .project3 p, .project4 p {
-  display: flex;
-  width: 236px;
-  padding-top: 0;
-  margin-top: 0;
-  justify-content: space-between;
-  align-items: baseline;
-  border: 1px solid red;
 }
 
 .project-description {
   display: flex;
   flex: 1 0 none;
-  width: 100%;
-  box-sizing: border-box;
-  margin-top: 20px;
+  margin: 0;
   padding: 0;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
+  width: 375px;
 }
 
 .project1-description p, .project2-description p, .project3-description p, .project4-description p {
-  color: #344563;
+  color: rgba(52, 69, 99, 1);
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 25.35px;
-  margin-bottom: 0;
-  width: 100%
+  padding: 0;
+  margin: 0;
 }
 
 .project-list img{
   width: 295px;
   height: 220px;
+  border-radius: 8px;
 }
 .contact-icons img{
   width: 24px;
   height: 24px;
+}
+.project1-tech-details ul, .project2-tech-details ul, .project3-tech-details ul, .project4-tech-details ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  max-height: 24px;
+  min-width: auto;
+  margin:0;
+  padding: 23px 0px 24px 0;
+}
+
+.lang-buttons button {
+font-family: "poppins", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(96, 112, 255, 1);
+border-radius: 8px;
+background-color: #EBEBFF;
+border: none;
+padding: 4px 12px;
+margin-right: 8px;
+}
+
+.resume {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 100%;
+}
+.resume a {
+  text-decoration: none; 
+  display: inherit;
+  color:rgba(57, 109, 242, 1);
+  width: 124px;
+  height:48px;
+  font-weight: 500;
+  border: 1px solid rgba(57, 109, 242, 1);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 .technical-details img{
