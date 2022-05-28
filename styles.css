@@ -161,10 +161,10 @@ margin-right: 8px;
 .resume, #get-resume {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  min-width: 100%;
+  padding-top: 0px;
 }
-.resume a, #get-resume a {
+
+.resume a {
   text-decoration: none; 
   display: inherit;
   color:rgba(57, 109, 242, 1);
@@ -202,36 +202,135 @@ margin-right: 8px;
 }
 
 .my-about h1 {
+  text-decoration: none;
   padding-top: 113px;
   margin: 0;
+  height: 101px;
   width: 100%;
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
 }
+
 .about-myself {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: flex-start;
+  height: 144px;
 }
+
 .about-myself p {
-
+  color: rgba(52, 69, 99, 1);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.contact-info h2{
+.contact-info h2 {
   display: flex;
   justify-content: flex-start;
+  height: 24px;
 }
 
 .contact-info h2 a {
   text-decoration: none;
+  color: #7F8CFF;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .contact-icons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
   flex-direction: row;
-  align-content: center;
+  padding-left: 0;
+  padding-right: 154px;
+  padding-top: 12px;
+  align-items: stretch;
 }
+.contact-icons li{
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+}
+.contact-icons img {
+  margin-right: 21px;
+  width: 100%;
+  height: max-content;
+}
+
 .skills {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 1px solid white;
 }
+
+.skills .active, .skills .inactive {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.skills .inactive{
+  border-bottom: 1px solid rgba(223, 225, 230, 1);
+  padding: 15px 20px;
+}
+
+.frameworks {
+  display: grid;
+  gap: 12px;
+  padding-left: 0;
+  padding-top: 10px;
+  height: 248px;
+  width: 100%;
+  justify-content: space-between;
+}
+.droplist{
+  width: 303px;
+  height: 66.72px;
+}
+
+.dropdown img{
+  height: 24px;
+  width: 24px;
+}
+
+#get-resume a{
+  text-decoration: none; 
+  color:rgba(57, 109, 242, 1);
+  width: 138px;
+  height: 24px;
+  font-weight: 500;
+  border: 1px solid rgba(57, 109, 242, 1);
+  border-radius: 16px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px
+}
+
