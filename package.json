@@ -4,6 +4,7 @@
   "description": "A list of the projects I have done over time",
   "main": "index.js",
   "dependencies": {
+    "@stylelint/postcss-markdown": "^0.36.2",
     "abab": "^2.0.6",
     "abbrev": "^1.1.1",
     "acorn": "^8.7.1",
