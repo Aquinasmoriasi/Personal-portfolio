@@ -3,7 +3,7 @@ body {
   height: 3913px;
   margin: 0;
   padding: 0;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(229, 229, 229, 0.3);
 }
 
 .canopy {
@@ -34,17 +34,13 @@ body {
 }
 
 .highlights.not-canopy {
-  padding-right: 12px;
+  padding-right: 5px 12px;
   margin: 0;
-}
-
-.highlights .not-canopy {
-  padding-left: 12px;
 }
 
 .project-list {
   display: grid;
-  background-color: rgba(229, 229, 229, 0.3);
+  background-color: rgba(229, 229, 229, 0.05);
   row-gap: 88px;
   height: 2792px;
   width: 100%;
@@ -53,7 +49,6 @@ body {
   align-items: center;
   grid-auto-flow: row;
   box-sizing: border-box;
-  border: 1px solid #dfe1e6;
 }
 
 .project1 {
@@ -112,7 +107,7 @@ body {
   border-radius: 16px;
 }
 
-.project1 h1 {
+.project1 h2 {
   font-family: "poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -125,7 +120,7 @@ body {
   color: rgba(23, 43, 77, 1);
 }
 
-.project3 h1 {
+.project3 h2 {
   font-family: "poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -138,7 +133,7 @@ body {
   color: rgba(23, 43, 77, 1);
 }
 
-.project2 h1 {
+.project2 h2 {
   font-family: "poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -151,7 +146,7 @@ body {
   color: rgba(23, 43, 77, 1);
 }
 
-.project4 h1 {
+.project4 h2 {
   font-family: "poppins", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -339,9 +334,11 @@ body {
   padding: 0 24px 0 24px;
   top: 114px;
   align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+  border-top-right-radius: 79px;
 }
 
-.my-about h1 {
+.my-about h3 {
   text-decoration: none;
   padding-top: 113px;
   margin: 0;
@@ -372,13 +369,13 @@ body {
   line-height: 24px;
 }
 
-.contact-info h2 {
+.contact-info h4 {
   display: flex;
   justify-content: flex-start;
   height: 24px;
 }
 
-.contact-info h2 a {
+.contact-info h4 a {
   text-decoration: none;
   color: #7f8cff;
   font-family: 'poppins', sans-serif;
@@ -417,6 +414,7 @@ body {
   height: 464px;
   padding: 0;
   border: 1px solid white;
+  margin-bottom: 100vh;
 }
 
 .skills .active {
