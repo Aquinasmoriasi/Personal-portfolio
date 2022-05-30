@@ -1,0 +1,27 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "This file entails web development projects I have done. They are listed along with information on how to conatact me one the various communication channels. This particular file is part of a webpage entailing my whole potfolio;",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ghostman747/Personal-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ghostman747/Personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/Ghostman747/Personal-portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
