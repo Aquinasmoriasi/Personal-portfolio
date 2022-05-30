@@ -427,11 +427,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding-top: 36px;
 }
 
 .active > span {
-  padding-top: 36px;
-  padding-bottom: 18px;
+  padding-bottom: 36px;
 }
 
 .skills .inactive {
