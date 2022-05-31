@@ -12,19 +12,22 @@ body {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.home-container {
-  padding: 0 24px;
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 100px 24px 12px 24px;
+  margin: 0;
   background-image: url("./icons/background.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position-y: 25px;
 }
 
 .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 58px 24px 0 24px;
+  padding: 0 24px;
   background-color: rgba(255, 255, 255, 1);
   margin: 0;
 }
@@ -54,9 +57,14 @@ body {
   height: 20px;
 }
 
-.logo a img {
+.logo button img {
   width: 18px;
   height: 12px;
+}
+
+.logo button {
+  border-style: none;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 #peace img {
@@ -69,14 +77,6 @@ body {
 
 #m img {
   height: 16px;
-}
-
-.main-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 128px 0 12px 0;
-  margin: 0;
 }
 
 .main-info h2 {

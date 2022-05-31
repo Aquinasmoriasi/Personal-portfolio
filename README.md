@@ -5,11 +5,12 @@ This project lists the projects I have done over time. It includes the source co
 HTML and CSS
 
 ## Getting Started
-This project can be acessed at my [Github account](https://github.com/Ghostman747) by anyone as it is a public repository.
-You will need a git hub account if you want to clone it and also a web browser capable of running HTML 5 for maximum quality of the content.
-The projects themselves can be accessed at the index.html file available in this repository.
-Also included is additional files for cheking the quality of the webpage and their installation directions.
-License information is also attached in this repository. Anyone is allowed to use the files accordingly as long as they use them positively.
+This project can be accessed at my [Github account](https://github.com/Ghostman747) by anyone as it is a public repository. To access it;
+- copy this link `https://github.com/Ghostman747/Personal-portfolio/.git`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/Ghostman747/Personal-portfolio/`.
+- go to the repository folder in your command prompt and open `index.html` file
 
 For any queries or suggestions, you can reach me at any of the channels listed below.
 
@@ -35,5 +36,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
