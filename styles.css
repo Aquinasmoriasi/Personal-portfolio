@@ -38,9 +38,37 @@ body {
   text-align: center;
 }
 
+.contact-icons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 170.17px;
+  list-style-type: none;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.contact-icons img {
+  width: 20px;
+  height: 20px;
+}
+
 .logo a img {
   width: 18px;
   height: 12px;
+}
+
+#peace img {
+  width: 14.17px;
+}
+
+#github img {
+  width: 17.99px;
+}
+
+#m img {
+  height: 16px;
 }
 
 .main-info {
@@ -85,40 +113,6 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-}
-
-.contact-icons {
-  display: flex;
-  justify-content: flex-start;
-  
-}
-
-.contact-icons {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
-  width: 170.17px;
-  list-style-type: none;
-  padding-bottom: 0;
-  padding-left: 0;
-}
-
-.contact-icons img {
-  width: 20px;
-  height: 20px;
-}
-
-#peace img {
-  width: 14.17px;
-}
-
-#github img {
-  width: 17.99px;
-}
-
-#m img {
-  height: 16px;
 }
 
 .contact-info h3 {
