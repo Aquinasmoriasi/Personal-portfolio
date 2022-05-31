@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio",
   "version": "1.0.0",
-  "description": "This file entails web development projects I have done. They are listed along with information on how to conatact me one the various communication channels. This particular file is part of a webpage entailing my whole potfolio;",
+  "description": "A list of the projects I have done over time",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
