@@ -9,5 +9,94 @@
     max-height: auto;
     font-size: 1.6rem;
     background-color: red;
-   } 
+  }
+  
+  #top-menu {
+    display: flex;
+  }
+
+  #top-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  #top-menu ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 8.7rem;
+  }
+
+#top-menu a {
+  text-decoration: none;
+width: 6.3rem;
+height: 2rem;
+font-weight: 500;
+font-size: 1.5rem;
+line-height: 2rem;
+text-align: center;
+color: #344563;
+  }
+
+  .logo button {
+    display: none;
+  }
+
+  #landing-page {
+    min-width: 144rem;
+    min-height: 91.6rem;
+  }
+
+  .main-info {
+    max-width: 139.74rem;
+    max-height: 72.146rem;
+    background-image: url("./images/dt-bg.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: 6.3rem  0.8rem 7.654rem 3.46rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-info h2 {
+    width: 92rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 22.1rem;
+  }
+
+  #break1 {
+    display: none;
+  }
+
+  .info-break {
+    display: block;
+  }
+
+  .my-info {
+    width: 92rem;
+    max-height: 9.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5.5rem;
+    margin-left: 0;
+  }
+
+  .contact-info {
+    width: 92rem;
+    height: 5.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 24rem;
+  }
 }

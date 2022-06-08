@@ -64,8 +64,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   padding: 10rem 2.4rem 1.2rem 2.4rem;
-  margin: 0;
   background-image: url("./icons/background.jpg");
+  margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -666,6 +666,10 @@ footer {
   margin: 0;
 }
 
+#top-menu {
+  display: none;
+}
+
 .input {
   display: flex;
   width: 32.7rem;
@@ -747,4 +751,8 @@ footer {
   height: 2.711rem;
   left: 25.074rem;
   top: 524.36rem;
+}
+
+.info-break {
+  display: none;
 }
