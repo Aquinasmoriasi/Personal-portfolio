@@ -22,6 +22,8 @@ For any queries or suggestions, you can reach me at any of the channels listed b
 
 ## 🤝 Contributing
 
+- [Tinaye Tsinakwadi](https://github.com/tinatsina/)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Ghostman747/Hello-Microverse/issues).
@@ -31,7 +33,6 @@ Feel free to check the [issues page](https://github.com/Ghostman747/Hello-Microv
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
 - Hat tip to anyone whose code was used
 - My coding partners and friends who helped me through the project among others.
 
