@@ -1,6 +1,13 @@
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 23.4675rem) {
+    html {
+        font-size: 62.5%;
+      background-color: red;
+    }
+
     body {
-    max-width: 1440px;
+    max-width: 144rem;
     max-height: auto;
+    font-size: 1.6rem;
+    background-color: red;
    } 
 }
