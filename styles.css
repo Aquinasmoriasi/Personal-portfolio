@@ -7,7 +7,6 @@ body {
   margin: 0;
   font-size: 1.6rem;
   padding: 0;
-  margin: 0;
 }
 
 .project-list img {
@@ -738,7 +737,7 @@ footer {
   width: 6.917rem;
   height: 9.363rem;
   left: 24.88rem;
-  top: 518.5rem;
+  top: 519.9rem;
   transform: matrix(0.5, 0.6, 0.5, -0.5, 1);
 }
 
@@ -747,5 +746,5 @@ footer {
   width: 2.711rem;
   height: 2.711rem;
   left: 25.074rem;
-  top: 522.9rem;
+  top: 524.36rem;
 }
