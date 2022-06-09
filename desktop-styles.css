@@ -1,15 +1,15 @@
 @media screen and (min-width: 48.06144rem) {
-    html {
-      font-size: 62.5%;
-      background-color: rgb(196, 196, 196);
-    }
+  html {
+    font-size: 62.5%;
+    background-color: rgb(196, 196, 196);
+  }
 
-    body {
+  body {
     max-width: 144rem;
     max-height: auto;
     font-size: 1.6rem;
   }
-  
+
   #top-menu {
     display: flex;
   }
@@ -60,7 +60,7 @@
     display: flex;
     align-items: center;
   }
-  
+
   .main-info h2 {
     width: 92rem;
     display: flex;
@@ -109,13 +109,10 @@
     justify-content: space-evenly;
     box-sizing: border-box;
     margin: 0;
-    padding:  14.2rem;
+    padding: 14.2rem;
   }
 
   .project1 {
-    width: auto;
-    height: auto;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     width: 115.6rem;
@@ -123,27 +120,63 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
+  }
 
+  .project2 img {
+    position: absolute;
+    left: 70rem;
+  }
+
+  .project4 img {
+    position: absolute;
+    left: 70rem;
   }
 
   .project2 {
-    width: auto;
-    height: auto;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     width: 115.6rem;
     height: 49.6rem;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: flex-end;
     flex-wrap: wrap;
-
+    align-items: flex-start;
+    justify-content: flex-start;
   }
+
+  .project4 {
+    padding: 0;
+    margin: 0;
+    width: 115.6rem;
+    height: 49.6rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .project2 .highlights {
+    margin: -2rem 0 0;
+  }
+
+  .project4 .highlights {
+    margin: -2rem 0 0;
+  }
+
+  .project2 h2 {
+    padding: 4.8rem 0 0 4.8rem;
+  }
+
+  .project4 h2 {
+    padding: 4.8rem 0 0 4.8rem;
+  }
+
+  .project2 p {
+    padding-left: 4.8rem;
+  }
+
+  .project4 p {
+    padding-left: 4.8rem;
+  }
+
   .project3 {
-    width: auto;
-    height: auto;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     width: 115.6rem;
@@ -152,20 +185,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
   }
-  .project4 {
-    width: auto;
-    height: auto;
-    border: 1px solid red;
-    padding: 0;
-    margin: 0;
-    width: 115.6rem;
-    height: 49.6rem;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-
+  
   .project-list img {
     width: 54.4rem;
     height: 44.8rem;
@@ -178,19 +198,73 @@
     align-items: flex-start;
     margin: 0;
     padding-bottom: 100%;
-
   }
 
-  .project1 h2, .project3 h2 {
-    padding-top: 2.4rem;
-    padding-right: 2.2rem;
-    padding-left: 0;
+  .project1 h2 {
+    padding: 2.4rem 2.2rem 1.5rem 0;
     font-size: 4rem;
     line-height: 5.2rem;
   }
 
+  .project3 h2 {
+    padding: 2.4rem 2.2rem 1.5rem 0;
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  .project2-description p {
+    display: flex;
+    max-width: 49.6rem;
+    padding: 1.4rem 4.8rem;
+    margin-right: 4.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .project4-description p {
+    display: flex;
+    max-width: 49.6rem;
+    padding: 1.4rem 4.8rem;
+    margin-right: 4.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .project2 .lang-buttons li:first-child {
+    padding-left: 4.8rem;
+  }
+  
+  .project4 .lang-buttons li:first-child {
+    padding-left: 4.8rem;
+  }
+
+  .project2 .resume {
+    padding-left: 4.8rem;
+  }
+
+  .project4 .resume {
+    padding-left: 4.8rem;
+  }
+
+  .project1-description p {
+    display: flex;
+    max-width: 49.6rem;
+    padding: 1.6rem 0;
+    margin-right: 4.6rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .project3-description p {
+    display: flex;
+    max-width: 49.6rem;
+    padding: 1.6rem 0;
+    margin-right: 4.6rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
   .canopy {
-    
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 2.4rem;
@@ -205,7 +279,6 @@
   footer {
     padding-top: 7.115625em;
     width: 144rem;
-    
   }
 
   #contact-form {
@@ -250,5 +323,4 @@
   .dt-br1 {
     display: none;
   }
-
 }
