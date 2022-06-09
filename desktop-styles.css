@@ -1,7 +1,6 @@
 @media screen and (min-width: 48.06144rem) {
   html {
     font-size: 62.5%;
-    background-color: rgb(196, 196, 196);
   }
 
   body {
@@ -19,13 +18,6 @@
     display: flex;
     justify-content: space-between;
     padding: 0;
-  }
-
-  #top-menu ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 8.7rem;
   }
 
   #top-menu a {
@@ -101,7 +93,6 @@
 
   .project-list {
     display: grid;
-    border: 3px dotted red;
     max-height: 269.4rem;
     min-width: 144rem;
     grid: 1fr;
@@ -185,7 +176,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
   }
-  
+
   .project-list img {
     width: 54.4rem;
     height: 44.8rem;
@@ -193,11 +184,14 @@
   }
 
   .about {
-    min-width: 144rem;
+    width: 144rem;
+    height: 66.8rem;
+    box-sizing: border-box;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0;
-    padding-bottom: 100%;
+    padding-left: 14.2rem;
   }
 
   .project1 h2 {
@@ -233,9 +227,16 @@
   .project2 .lang-buttons li:first-child {
     padding-left: 4.8rem;
   }
-  
+
   .project4 .lang-buttons li:first-child {
     padding-left: 4.8rem;
+  }
+
+  #top-menu ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 8.7rem;
   }
 
   .project2 .resume {
@@ -269,7 +270,7 @@
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
-  
+
   .not-canopy {
     font-size: 1.8rem;
     font-weight: 400;
@@ -283,11 +284,26 @@
 
   #contact-form {
     justify-content: space-evenly;
+    box-sizing: padding-box;
     align-items: center;
-    width: 80.1rem;
-    height: 57.7rem;
-    padding: 12.7rem 31.9rem;
+    max-width: 144rem;
+    min-height: 57.7rem;
+    padding:
   }
+
+  #contact-form p {
+    padding-left: 15.3rem;
+  }
+
+  #contact-form h5 {
+    padding-left: 15.3rem;
+  }
+
+  #contact-form button {
+    align-self: center;
+    margin-left: 15.3rem;
+  }
+
 
   .input-item {
     margin-bottom: 2.7rem;

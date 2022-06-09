@@ -477,6 +477,7 @@ body {
   align-items: flex-start;
   background-color: rgba(255, 255, 255, 1);
   border-top-right-radius: 7.9rem;
+  box-sizing: border-box;
 }
 
 .my-about h3 {
@@ -627,7 +628,10 @@ button:hover {
   color: #fff;
 }
 
-#submit {
+#submit:hover {
+  background: #6070ff;
+  box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -681,6 +685,7 @@ footer {
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
+  box-sizing: border-box;
 }
 
 #contact-form h5 {
