@@ -291,7 +291,6 @@
     align-items: center;
     max-width: 144rem;
     min-height: 57.7rem;
-    padding:
   }
 
   #contact-form p {
@@ -375,5 +374,13 @@
 
   .dt-br1 {
     display: none;
+  }
+  
+  #pj3-actual {
+    display: none;
+  }
+
+  #pj3-alt {
+    display: block;
   }
 }
