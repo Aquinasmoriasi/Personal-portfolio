@@ -830,6 +830,10 @@ footer {
   display: none;
 }
 
-#pj4-alt-lang-button {
+.pj4-alt-lang-button {
+  display: none;
+}
+
+#pj1-h2-alt {
   display: none;
 }

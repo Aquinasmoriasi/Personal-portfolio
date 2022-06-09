@@ -197,10 +197,15 @@
     padding-left: 14.2rem;
   }
 
-  .project1 h2 {
+  #pj1-h2-alt {
+    display: block;
     padding: 2.4rem 2.2rem 1.5rem 0;
     font-size: 4rem;
     line-height: 5.2rem;
+  }
+
+  #pj1-h2 {
+    display: none;
   }
 
   .project3 h2 {
@@ -239,15 +244,6 @@
 
   .project4 .resume {
     padding-left: 4.8rem;
-  }
-
-  .project1-description p {
-    display: flex;
-    max-width: 49.6rem;
-    padding: 1.6rem 0;
-    margin-right: 4.6rem;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
   }
 
   .project3-description p {
@@ -415,6 +411,19 @@
     display: none;
   }
 
+  .project1-description-p {
+    display: none;
+  }
+
+  .project1-description-alt-p {
+    display: flex;
+    max-width: 49.6rem;
+    padding: 1.6rem 0;
+    margin-right: 4.6rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
   .project4-description-alt-p {
     display: block;
     display: flex;
@@ -424,7 +433,7 @@
     line-height: 2.4rem;
   }
   
-  #pj4-alt-lang-button {
+  .pj4-alt-lang-button {
     display: block;
   }
 
