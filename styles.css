@@ -111,11 +111,6 @@ body {
   height: 1.2rem;
 }
 
-.logo button {
-  border-style: none;
-  background-color: rgba(255, 255, 255, 1);
-}
-
 #peace img {
   width: 1.417rem;
 }
@@ -609,6 +604,172 @@ body {
 .droplist {
   width: 30.3rem;
   height: 6.672rem;
+}
+
+footer {
+  padding-top: 7.115625em;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: "poppins", sans-serif;
+}
+
+#contact-form {
+  max-height: 779px;
+  border-top-left-radius: 79px;
+  background: rgba(96, 112, 255, 1);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#contact-form h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 52px;
+  padding: 7.93512rem 1.5rem 0.75rem 0;
+  margin: 0;
+}
+
+#contact-form p {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 0 1.5rem 3.5rem;
+  margin: 0;
+}
+
+.input {
+  display: flex;
+  width: 25.2191rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 1.5rem;
+}
+
+.input-item {
+  margin-bottom: 1rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+.input textarea {
+  margin-bottom: 1rem;
+  height: 10.625rem;
+  border-radius: 0.5rem;
+  border-style: none;
+}
+
+.input button {
+  width: 8.75rem;
+  height: 3rem;
+  border-style: none;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6070ff;
+  margin-bottom: 2.8125rem;
+  padding-bottom: 0;
+}
+
+::placeholder {
+  padding: 1rem;
+  font-family: "poppins", sans-serif;
+}
+
+#svg-1 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 153px;
+  top: 4662px;
+}
+
+#svg-2 {
+  position: absolute;
+  width: 124.7px;
+  height: 37.21px;
+  left: 289px;
+  top: 4632.4px;
+  transform: rotate(-9.18deg);
+}
+
+#svg-3 {
+  position: absolute;
+  width: 90px;
+  height: 79px;
+  left: 318px;
+  top: 4647.75px;
+}
+
+#svg-4 {
+  position: absolute;
+  width: 69.17px;
+  height: 93.63px;
+  left: 248.8px;
+  top: 5215px;
+  transform: matrix(0.5, 0.6, 0.5, -0.5, 1);
+}
+
+#svg-5 {
+  position: absolute;
+  width: 27.11px;
+  height: 27.11px;
+  left: 250.74px;
+  top: 5258.89px;
+}
+
+button:enabled {
+  border: 1px solid #7f8cff;
+}
+
+button:disabled {
+  color: #5e6c84;
+  border-color: #5e6c84;
+}
+
+button:active {
+  color: rgba(255, 255, 255, 1);
+  background: #2230d2;
+}
+
+button:hover {
+  background: #6070ff;
+  box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+#submit {
+  cursor: pointer;
+}
+
+input:invalid {
+  border: 1px solid rgb(236, 34, 34);
+}
+
+.logo button {
+  border-style: none;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.resume a:hover {
+  background: #6070ff;
+  box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.resume a:active {
+  color: rgba(255, 255, 255, 1);
+  background: #2230d2;
 }
 
 #get-resume a {

@@ -1,6 +1,6 @@
-@media screen and (min-width: 23.4675rem) {
+@media screen and (min-width: 23.4675em) {
     html {
-        font-size: 62.5%;
+      font-size: 62.5%;
       background-color: red;
     }
 
@@ -29,15 +29,15 @@
     min-width: 8.7rem;
   }
 
-#top-menu a {
-  text-decoration: none;
-width: 6.3rem;
-height: 2rem;
-font-weight: 500;
-font-size: 1.5rem;
-line-height: 2rem;
-text-align: center;
-color: #344563;
+  #top-menu a {
+    text-decoration: none;
+    width: 6.3rem;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #344563;
   }
 
   .logo button {
