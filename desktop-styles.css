@@ -111,6 +111,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
+    order: 3;
   }
 
   .project2 img {
@@ -131,6 +132,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    order: 4;
   }
 
   .project4 {
@@ -141,6 +143,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    order: 2;
   }
 
   .project2 .highlights {
@@ -304,6 +307,40 @@
     margin-left: 15.3rem;
   }
 
+  .skills {
+    margin-top: 19.3rem;
+    padding-left: 3.7rem;
+    width: 68.4rem;
+  }
+
+  .frameworks {
+    display: none;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .frameworks-alt li {
+    list-style-type: none;   
+  }
+
+  .frameworks-alt img {
+    align-self: flex-start;
+    width: 12.2rem;
+    height: 12rem;
+  }
+  
+  .frameworks-alt {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    column-gap: 2.4rem;
+    padding-left: 0;
+    min-width: 60rem;
+  }
 
   .input-item {
     margin-bottom: 2.7rem;

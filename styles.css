@@ -786,7 +786,7 @@ footer {
   width: 6.917rem;
   height: 9.363rem;
   left: 24.88rem;
-  top: 523.3rem;
+  top: 520.3rem;
   transform: matrix(0.5, 0.6, 0.5, -0.5, 1);
 }
 
@@ -795,7 +795,7 @@ footer {
   width: 2.711rem;
   height: 2.711rem;
   left: 25.074rem;
-  top: 527.76rem;
+  top: 524.76rem;
 }
 
 .info-break {
@@ -808,4 +808,8 @@ footer {
 
 .dt-br1 {
   display: block;
+}
+
+.frameworks-alt {
+  display: none;
 }
