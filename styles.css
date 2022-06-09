@@ -185,6 +185,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 1.3rem;
+  line-height: 1.6rem;
 }
 
 .not-canopy {
@@ -920,4 +921,8 @@ footer {
 
 .dt-br {
   display: none;
+}
+
+.dt-br {
+  display: block;
 }

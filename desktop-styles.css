@@ -102,12 +102,11 @@
   .project-list {
     display: grid;
     border: 3px dotted red;
-    
     max-height: 269.4rem;
     min-width: 144rem;
     grid: 1fr;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     box-sizing: border-box;
     margin: 0;
     padding:  14.2rem;
@@ -121,10 +120,9 @@
     margin: 0;
     width: 115.6rem;
     height: 49.6rem;
-    flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
   }
 
@@ -136,10 +134,10 @@
     margin: 0;
     width: 115.6rem;
     height: 49.6rem;
-    align-items: center;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-wrap: wrap;
 
   }
   .project3 {
@@ -150,11 +148,9 @@
     margin: 0;
     width: 115.6rem;
     height: 49.6rem;
-    align-items: center;
-    flex-direction: row;
+    align-items: flex-start;
     justify-content: flex-start;
-    flex-wrap: nowrap;
-
+    flex-wrap: wrap;
   }
   .project4 {
     width: auto;
@@ -164,17 +160,16 @@
     margin: 0;
     width: 115.6rem;
     height: 49.6rem;
-    align-items: center;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .project-list img {
     width: 54.4rem;
     height: 44.8rem;
-    padding: 2.4rem;
+    padding: 2.4rem 4.8rem 2.4rem 2.4rem;
   }
 
   .about {
@@ -184,6 +179,27 @@
     margin: 0;
     padding-bottom: 100%;
 
+  }
+
+  .project1 h2, .project3 h2 {
+    padding-top: 2.4rem;
+    padding-right: 2.2rem;
+    padding-left: 0;
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+
+  .canopy {
+    
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  
+  .not-canopy {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
   }
 
   footer {
@@ -229,6 +245,10 @@
 
   .dt-br {
     display: block;
+  }
+
+  .dt-br1 {
+    display: none;
   }
 
 }
