@@ -218,15 +218,6 @@
     line-height: 2.4rem;
   }
 
-  .project4-description p {
-    display: flex;
-    max-width: 49.6rem;
-    padding: 1.4rem 4.8rem;
-    margin-right: 4.2rem;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-
   .project2 .lang-buttons li:first-child {
     padding-left: 4.8rem;
   }
@@ -268,16 +259,52 @@
     line-height: 2.4rem;
   }
 
+  .canopy4 {
+    display: none;
+  }
+
   .canopy {
     font-weight: 500;
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
+  
+  .canopy-alt {
+    display: block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #344563;
+    font-family: 'poppins', sans-serif;
+    font-style: normal;
+    padding-right: 1.2rem;
+    padding-bottom: 2.1rem;
+  }
+  
+  #projects {
+    margin-bottom: -56rem;
+  }
 
   .not-canopy {
+    display: block;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 2.4rem;
+  }
+
+  .not-canopy4 {
+    display: none;
+  }
+
+  .not-canopy-alt {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    font-family: 'poppins', sans-serif;     
+    letter-spacing: 0;
+    color: #7a869a;
+    padding: 0 1.2rem;
   }
 
   footer {
@@ -375,7 +402,7 @@
   .dt-br1 {
     display: none;
   }
-  
+
   #pj3-actual {
     display: none;
   }
@@ -383,4 +410,22 @@
   #pj3-alt {
     display: block;
   }
+
+  .project4-description-p {
+    display: none;
+  }
+
+  .project4-description-alt-p {
+    display: block;
+    display: flex;
+    max-width: 49.6rem;
+    margin-right: 4.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+  
+  #pj4-alt-lang-button {
+    display: block;
+  }
+
 }

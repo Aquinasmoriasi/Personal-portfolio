@@ -815,5 +815,21 @@ footer {
 }
 
 #pj3-alt {
-  display: none;;
+  display: none;
+}
+
+.canopy-alt {
+  display: none;
+}
+
+.not-canopy-alt {
+  display: none;
+}
+
+.project4-description-alt-p {
+  display: none;
+}
+
+#pj4-alt-lang-button {
+  display: none;
 }
