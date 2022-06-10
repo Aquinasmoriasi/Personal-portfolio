@@ -179,38 +179,98 @@ body {
   box-sizing: border-box;
 }
 
-.canopy {
+.canopy1 {
   color: #344563;
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3rem;
   line-height: 1.6rem;
+  padding-right: 1.2rem;
+  margin: 0;
 }
 
-.not-canopy {
+.canopy2 {
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  padding-right: 1.2rem;
+  margin: 0;
+}
+
+.canopy4 {
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  padding-right: 1.2rem;
+  margin: 0;
+}
+
+.canopy3 {
+  color: #344563;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  padding-right: 1.2rem;
+  margin: 0;
+}
+
+.not-canopy1 {
   font-family: 'poppins', sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
   line-height: 1.6rem;
   letter-spacing: 0;
   color: #7a869a;
-  padding: 0 1.2rem;
+  padding: 0.5rem 1.2rem 0;
+  margin: 0;
+}
+
+.not-canopy2 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+  color: #7a869a;
+  padding: 0.5rem 1.2rem 0;
+  margin: 0;
+}
+
+.not-canopy3 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+  color: #7a869a;
+  padding: 0.5rem 1.2rem 0;
+  margin: 0;
+}
+
+.not-canopy4 {
+  font-family: 'poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  letter-spacing: 0;
+  color: #7a869a;
+  padding: 0.5rem 1.2rem 0;
+  margin: 0;
 }
 
 .highlights {
   display: flex;
   justify-content: flex-start;
-}
-
-.highlights .canopy {
-  padding-right: 1.2rem;
-  margin: 0;
-}
-
-.highlights.not-canopy {
-  padding-right: 0.5rem 1.2rem;
-  margin: 0;
+  align-items: flex-end;
 }
 
 .project-list {
@@ -839,9 +899,13 @@ footer {
 }
 
 #pj2-h2-alt {
-  display: block;
+  display: none;
 }
 
 .project1-description-alt-p {
+  display: none;
+}
+
+.project2-description-alt-p {
   display: none;
 }
