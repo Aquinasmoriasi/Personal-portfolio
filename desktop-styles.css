@@ -31,11 +31,13 @@
     color: #344563;
     transition-property: color;
     transition-duration: 1s;
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
   }
 
-  #top-menu a:hover {
+  #top-menu a:hover,
+  #top-menu a:focus {
     background-color: rgba(96, 112, 255, 1);
+    transform: scale(1.2);
     color: #fff;
   }
 
@@ -45,6 +47,15 @@
 
   .logo button {
     display: none;
+  }
+
+  .logo h1 a:hover, .logo h1 a:focus {
+    color: #fff;
+  }
+
+  .logo h1:hover, .logo h1:focus {
+    background-color: rgba(96, 112, 255, 1);
+    transform: scale(1.2);
   }
 
   #landing-page {
