@@ -9,6 +9,15 @@
     font-size: 1.6rem;
   }
 
+  .logo h1 a:hover {
+    color: #fff;
+  }
+
+  .logo h1:hover {
+    background-color: rgba(96, 112, 255, 1);
+    transform: scale(1.2);
+  }
+
   #top-menu {
     display: flex;
   }
@@ -41,21 +50,17 @@
     color: #fff;
   }
 
+  #get-resume a:hover {
+    background-color: #6070ff;
+    color: rgba(255, 255, 255, 1);
+  }
+
   .logo {
     padding: 0 15.4rem;
   }
 
   .logo button {
     display: none;
-  }
-
-  .logo h1 a:hover, .logo h1 a:focus {
-    color: #fff;
-  }
-
-  .logo h1:hover, .logo h1:focus {
-    background-color: rgba(96, 112, 255, 1);
-    transform: scale(1.2);
   }
 
   #landing-page {
@@ -250,6 +255,17 @@
     padding: 2.4rem 4.8rem 2.4rem 2.4rem;
   }
 
+  .frameworks-alt img {
+    align-self: flex-start;
+    width: 12.2rem;
+    height: 12rem;
+  }
+
+  .contact-icons img:hover,
+  .contact-icons2 img:hover {
+    transform: rotate(-5.18deg) scale(1.2);
+  }
+
   .about {
     width: 144rem;
     height: 66.8rem;
@@ -441,12 +457,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-
-  .frameworks-alt img {
-    align-self: flex-start;
-    width: 12.2rem;
-    height: 12rem;
   }
 
   .frameworks-alt {
