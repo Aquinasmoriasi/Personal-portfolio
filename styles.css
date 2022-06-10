@@ -99,6 +99,8 @@ body {
   list-style-type: none;
   padding-bottom: 0;
   padding-left: 0;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
 }
 
 .contact-icons img {
@@ -109,6 +111,11 @@ body {
 .logo button img {
   width: 1.8rem;
   height: 1.2rem;
+}
+
+.contact-icons img:hover,
+.contact-icons2 img:hover {
+  transform: rotate(-5.18deg) scale(1.2);
 }
 
 #peace img {
@@ -908,4 +915,9 @@ footer {
 
 .project2-description-alt-p {
   display: none;
+}
+
+#get-resume a:hover {
+  background-color: #6070ff;
+  color: rgba(255, 255, 255, 1);
 }
