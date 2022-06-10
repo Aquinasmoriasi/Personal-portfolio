@@ -29,6 +29,14 @@
     line-height: 2rem;
     text-align: center;
     color: #344563;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+  }
+
+  #top-menu a:hover {
+    background-color: rgba(96, 112, 255, 1);
+    color: #fff;
   }
 
   .logo {
