@@ -838,6 +838,10 @@ footer {
   display: none;
 }
 
+#pj2-h2-alt {
+  display: block;
+}
+
 .project1-description-alt-p {
   display: none;
 }

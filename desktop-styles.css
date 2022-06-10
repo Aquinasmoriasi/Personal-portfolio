@@ -237,6 +237,16 @@
     display: none;
   }
 
+  .project2-description-alt-p {
+    display: block;
+    display: flex;
+    max-width: 49.6rem;
+    margin-right: 4.2rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    word-spacing: 0.1rem;
+  }
+
   .frameworks-alt li {
     list-style-type: none;
   }
