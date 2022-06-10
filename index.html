@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project list and about section</title>
+    <title>Moriasi's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="desktop-styles.css">
 </head>
 <body>
  <section id="landing-page">
@@ -18,14 +19,28 @@
             <button type="button">
                 <img src="./icons/union.jpg" alt="menu">
             </button>
+            <div id="top-menu">
+                <ul>
+                    <li>
+                        <a href="#projects">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#about-me">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact-form">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+        
     </header>
     <section class="main-info">
-        <h2>I’m Moriasi <br>glad to see <br>you!</h2>
+        <h2>I’m Moriasi <br>glad to see <br id="break1">you!</h2>
             <div class="my-info">
                 <p>
                     I'm a software developer! I can help you build a product , feature or website
-                    Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                    Look through <br class="info-break"> some of my work and experience! If you like what you see and have a project you need <br class="info-break"> coded, don’t hesitate to contact me.
                 </p>
             </div>  
             <div class="contact-info">
@@ -59,35 +74,46 @@
                                            
                     </ul>
             </div>
- </section>  
-</section> 
+    </section>  
+ </section> 
     <div id="projects">
     <section class="project-list">
        <section class="project1">
            <img src="./images/project1.jpg" alt="project1-snapshot">
-           <h2>Tonic</h2>
+           <h2 id="pj1-h2">Tonic</h2>
+           <h2 id="pj1-h2-alt">Facebook 360</h2>
            <p class="highlights">
-             <span class="canopy">CANOPY</span>
+             <span class="canopy4">CANOPY</span>
+             <span class="canopy-alt">FACEBOOK</span>
                 <span>
                 <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                 </svg>
                 </span>
-             <span class="not-canopy">Back End Dev</span>
+                <span class="not-canopy4">Back End Dev</span>
+                <span class="not-canopy-alt">Full Stack Dev</span>
                 <span>
                 <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                 </svg>
                 </span>
-             <span class="not-canopy">2015</span>
+                <span class="not-canopy4">2015</span>
+                <span class="not-canopy-alt">2015</span>
            
             <div class="project1-description">
-                <p>A daily selection of privately <br> personalized reads; no accounts or <br> sign-ups required.</p>
+                <p class="project1-description-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="project1-description-alt-p">
+            Exploring the future of media in Facebook's first Virtual Reality app;
+            a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
             </div>
          <div class="project1-tech-details">
             <ul class="lang-buttons">
                 <li>
                     <button type="button">html</button>
+                </li>
+                <li>
+                    <button class="pj4-alt-lang-button" type="button">Ruby on rails</button>
                 </li>
                 <li>
                     <button type="button">css</button>
@@ -103,28 +129,39 @@
        </section>
        <section class="project2">
         <img src="./images/project2.jpg" alt="project2-snapshot">
-        <h2>Multi-Post <br> Stories</h2>
+        <h2 id="pj2-h2">Multi-Post <br class="dt-br1"> Stories</h2>
+        <h2 id="pj2-h2-alt">Uber Navigation</h2>
         <p class="highlights">
-            <span class="canopy">CANOPY</span>
+            <span class="canopy2">CANOPY</span>
+            <span class="canopy-alt">Uber</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">Back End Dev</span>
+               <span class="not-canopy2">Back End Dev</span>
+               <span class="not-canopy-alt">Lead Developer</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">2015</span>    
+               <span class="not-canopy2">2015</span>
+               <span class="not-canopy-alt">2018</span>   
       <div class="project2-description">
-          <p>A daily selection of privately <br> personalized reads; no accounts or <br> sign-ups required.</p>
+        <p class="project2-description-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="project2-description-alt-p">
+            A smart assistant to make driving more safe, efficient, and fun by 
+            unlocking your most expensive computer: your car.
+        </p>
       </div>
       <div class="project2-tech-details">
         <ul class="lang-buttons">
             <li>
                 <button type="button">html</button>
+            </li>
+            <li>
+                <button class="pj4-alt-lang-button" type="button">Ruby on rails</button>
             </li>
             <li>
                 <button type="button">css</button>
@@ -139,24 +176,25 @@
       </div>   
        </section>
        <section class="project3">
-        <img src="./images/project3.jpg" alt="project3-snapshot">
+        <img id="pj3-actual" src="./images/project3.jpg" alt="project3-snapshot">
+        <img id="pj3-alt" src="./images/project1-alt.jpg" alt="project3-snapshot">
         <h2>Tonic</h2>
         <p class="highlights">
-            <span class="canopy">CANOPY</span>
+            <span class="canopy3">CANOPY</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">Back End Dev</span>
+            <span class="not-canopy3">Back End Dev</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">2015</span>
+            <span class="not-canopy3">2015</span>
       <div class="project3-description">
-          <p>A daily selection of privately <br> personalized reads; no accounts or <br> sign-ups required.</p>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
       </div>
       <div class="project3-tech-details">
         <ul class="lang-buttons">
@@ -177,28 +215,38 @@
        </section>
        <section class="project4">
         <img src="./images/project4.jpg" alt="project4-snapshot">
-        <h2>Multi-Post Stories</h2>
+        <h2>Multi-Post <br class="dt-br1"> Stories</h2>
         <p class="highlights">
-            <span class="canopy">CANOPY</span>
+            <span class="canopy4">CANOPY</span>
+            <span class="canopy-alt">FACEBOOK</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">Back End Dev</span>
+            <span class="not-canopy4">Back End Dev</span>
+            <span class="not-canopy-alt">Full Stack Dev</span>
                <span>
                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
                </svg>
                </span>
-            <span class="not-canopy">2015</span>
+            <span class="not-canopy4">2015</span>
+            <span class="not-canopy-alt">2015</span>
       <div class="project4-description">
-          <p>A daily selection of privately personalized reads; no accounts or <br> sign-ups required.</p>
+          <p class="project4-description-p">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <p class="project4-description-alt-p">
+            Experimental content creation feature that allows users to add to an existing story over
+            the course of a day without spamming their friends.
+          </p>
       </div>
       <div class="project4-tech-details">
         <ul class="lang-buttons">
             <li>
                 <button type="button">html</button>
+            </li>
+            <li>
+                <button class="pj4-alt-lang-button" type="button">Ruby on rails</button>
             </li>
             <li>
                 <button type="button">css</button>
@@ -213,15 +261,15 @@
       </div> 
        </section>     
     </section>       
-    <section class="about">
+    <section class="about" id="about-me">
         <section class="my-about">
             <h3>About <br>Myself</h3>
             <div class="about-myself">
                 <p>
-                    Hello I’m a software developer! I can help <br> you build a product , 
-                    feature or website <br> Look through some of my work and <br> experience! 
-                    If you like what you see and <br> have a project you need coded, don’t 
-                    hestiate to contact me.
+                    Hello I’m a software developer! I can help you build a <br class="dt-br"> product , 
+                    feature or website Look through some of my <br class="dt-br"> work and experience! 
+                    If you like what you see and have <br class="dt-br"> a project you need coded, don’t 
+                    hesitate to contact me.
                 </p>
             </div>
             <section class="contact-info2">
@@ -265,7 +313,7 @@
                 <li class="active">
                     <span>Languages</span>
                     <span class="dropdown">
-                        <img src="./images/down.jpg" alt="dropdown">
+                        <img id="down" src="./images/down.jpg" alt="dropdown">
                     </span> 
                     <ul class="frameworks">
                         <li class="droplist">
@@ -276,6 +324,17 @@
                         </li>
                         <li class="droplist">
                             <img src="./images/css.jpg" alt="css">
+                        </li>
+                    </ul>
+                    <ul class="frameworks-alt">
+                        <li class="droplist-alt">
+                            <img src="./images/js2.jpg" alt="javaScript">
+                        </li>
+                        <li class="droplist-alt">
+                            <img src="./images/html2.jpg" alt="html">
+                        </li>
+                        <li class="droplist-alt">
+                            <img src="./images/css2.jpg" alt="css">
                         </li>
                     </ul>
                 </li>
@@ -293,38 +352,37 @@
             </ul>
         </div>
     </section>
-    <!-- This is the footer section of the webpage-->
-    <footer>
-        <section id="contact-form">
-            <h5>Contact me</h5>
-            <p>
-            If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding.
-            I’d love to help with it
-            </p>
-            <form class="input" action="https://formspree.io/f/xlezvgbv" method="post">
-               <input type="text" class="input-item" name="Name" placeholder="full name" maxlength="30" required>
-               <input type="email" class="input-item" name="Email" placeholder="email" minlength=10 required>
-               <textarea name="message" cols="30" rows="10" placeholder="write your message here" maxlength="500" required></textarea>
-               <button type="submit" id="submit">Get in Touch</button>
-            </form>
-            <svg id="svg-1" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10.5" cy="10.5" r="10.5" fill="#7F8CFF"/>
-            </svg>
-            <svg id="svg-2" width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="29.3994" width="74.7012" height="17.2106" transform="rotate(-23.1765 0 29.3994)" fill="#7F8CFF"/>
-            </svg>
-            <svg id="svg-3" width="47" height="86" viewBox="0 0 47 86" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M84.2067 23.4103C80.7385 17.3223 75.8692 12.1276 69.9932 8.24664C64.1172 4.36571 57.3996 1.9077 50.3842 1.07163C43.3689 0.235572 36.2531 1.04496 29.6129 3.43425C22.9728 5.82355 16.9949 9.72559 12.1634 14.8244C7.33183 19.9233 3.78243 26.0756 1.80255 32.7833C-0.177326 39.491 -0.532025 46.5655 0.767174 53.4339C2.06637 60.3023 4.98295 66.7717 9.28075 72.3182C13.5786 77.8646 19.1368 82.3323 25.5054 85.3594L33.8939 68.1011C30.2658 66.3766 27.0992 63.8314 24.6508 60.6716C22.2023 57.5117 20.5408 53.8261 19.8006 49.9132C19.0605 46.0003 19.2625 41.9699 20.3905 38.1486C21.5184 34.3272 23.5405 30.8222 26.293 27.9174C29.0455 25.0126 32.4511 22.7896 36.234 21.4285C40.0169 20.0673 44.0708 19.6062 48.0674 20.0825C52.064 20.5588 55.891 21.9591 59.2386 24.1701C62.5862 26.381 65.3602 29.3405 67.336 32.8088L84.2067 23.4103Z" fill="white"/>
-            </svg>
-            <svg id="svg-4" width="70" height="58" viewBox="0 0 70 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="76.175" height="13.6273" transform="matrix(0.801365 0.598176 0.598176 -0.801365 0.804688 11.8887)" fill="#7F8CFF"/>
-            </svg>
-            <svg id="svg-5" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16.2283" cy="16.2188" r="15.5552" transform="rotate(48.9435 16.2283 16.2188)" fill="white"/>
-            </svg>                                                                                                     
-        </section>
-        </footer>
-</div>  
+ </div>
+ <footer>
+    <section id="contact-form">
+        <h5>Contact me</h5>
+        <p>
+        If you have an application you are interested in <br class="dt-br"> developing,
+        a feature that you need built or a project <br class="dt-br"> that needs coding.
+        I’d love to help with it
+        </p>
+        <form class="input" action="https://formspree.io/f/xlezvgbv" method="post">
+           <input type="text" class="input-item" name="Name" placeholder="full name" maxlength="30" required>
+           <input type="email" class="input-item" name="Email" placeholder="email" required>
+           <textarea name="message" cols="30" rows="10" placeholder="write your message here" maxlength="500" required></textarea>
+           <button type="submit" id="submit">Get in Touch</button>
+        </form>
+        <svg id="svg-1" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="10.5" cy="10.5" r="10.5" fill="#7F8CFF"/>
+        </svg>
+        <svg id="svg-2" width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="29.3994" width="74.7012" height="17.2106" transform="rotate(-23.1765 0 29.3994)" fill="#7F8CFF"/>
+        </svg>
+        <svg id="svg-3" width="47" height="86" viewBox="0 0 47 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M84.2067 23.4103C80.7385 17.3223 75.8692 12.1276 69.9932 8.24664C64.1172 4.36571 57.3996 1.9077 50.3842 1.07163C43.3689 0.235572 36.2531 1.04496 29.6129 3.43425C22.9728 5.82355 16.9949 9.72559 12.1634 14.8244C7.33183 19.9233 3.78243 26.0756 1.80255 32.7833C-0.177326 39.491 -0.532025 46.5655 0.767174 53.4339C2.06637 60.3023 4.98295 66.7717 9.28075 72.3182C13.5786 77.8646 19.1368 82.3323 25.5054 85.3594L33.8939 68.1011C30.2658 66.3766 27.0992 63.8314 24.6508 60.6716C22.2023 57.5117 20.5408 53.8261 19.8006 49.9132C19.0605 46.0003 19.2625 41.9699 20.3905 38.1486C21.5184 34.3272 23.5405 30.8222 26.293 27.9174C29.0455 25.0126 32.4511 22.7896 36.234 21.4285C40.0169 20.0673 44.0708 19.6062 48.0674 20.0825C52.064 20.5588 55.891 21.9591 59.2386 24.1701C62.5862 26.381 65.3602 29.3405 67.336 32.8088L84.2067 23.4103Z" fill="white"/>
+        </svg>
+        <svg id="svg-4" width="70" height="58" viewBox="0 0 70 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="76.175" height="13.6273" transform="matrix(0.801365 0.598176 0.598176 -0.801365 0.804688 11.8887)" fill="#7F8CFF"/>
+        </svg>
+        <svg id="svg-5" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16.2283" cy="16.2188" r="15.5552" transform="rotate(48.9435 16.2283 16.2188)" fill="white"/>
+        </svg>                                                                                                     
+    </section>
+ </footer>
 </body>
 </html>
