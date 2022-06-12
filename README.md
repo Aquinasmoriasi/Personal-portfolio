@@ -16,7 +16,7 @@ This project can be accessed at my [Github account](https://github.com/Ghostman7
 For any queries or suggestions, you can reach me at any of the channels listed below.
 
 👤 Author
-- GitHub: [@Ghostman747](https://github.com/Ghostman747)
+- GitHub: [@Aquinasmoriasi](https://github.com/Aquinasmoriasi)
 - Twitter: [@aquinasmoriasi](https://twitter.com/aquinas747)
 - LinkedIn: [Aquinas Moriasi](www.linkedin.com/in/aquinas-moriasi)
 
