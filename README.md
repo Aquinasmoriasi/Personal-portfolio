@@ -17,14 +17,15 @@ For any queries or suggestions, you can reach me at any of the channels listed b
 
 👤 Author
 - GitHub: [@Aquinasmoriasi](https://github.com/Aquinasmoriasi)
-- Twitter: [@aquinasmoriasi](https://twitter.com/aquinas747)
+- Twitter: [@aquinas747](https://twitter.com/aquinas747)
 - LinkedIn: [Aquinas Moriasi](www.linkedin.com/in/aquinas-moriasi)
 
 ## 🤝 Contributing
+[Nonhlanhla](https://github.com/29td)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ghostman747/Hello-Microverse/issues).
+Feel free to check the [issues page](https://github.com/Aquinasmoriasi/Personal-portfolio/issues).
 
 ## Show your support
 
