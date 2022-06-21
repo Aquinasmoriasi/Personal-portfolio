@@ -18,6 +18,10 @@
     transform: scale(1.2);
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   #top-menu {
     display: flex;
   }
