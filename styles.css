@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 html {
   background-color: rgba(229, 229, 229, 0.3);
   font-size: 62.5%;
@@ -75,19 +76,58 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2.4rem;
+  padding: 0 2.4rem 0;
   background-color: rgba(255, 255, 255, 1);
   margin: 0;
   box-sizing: border-box;
+  padding-top: 2.5rem;
 }
 
-.logo h1 a {
+.logo a {
   text-decoration: none;
   color: rgba(96, 112, 255, 1);
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 2rem;
   text-align: center;
+}
+
+.menu-items {
+  list-style: none;
+  position: absolute;
+  right: 200%;
+  color: rgba(255, 255, 255, 1);
+  mix-blend-mode: multiply;
+  background-color:  #6070ff;
+  width: 100%;
+  height: 73%;
+  z-index: 1;
+  margin: 0;
+}
+
+.navigation-link a{
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  line-height: 4.4rem;
+  font-weight: 500;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bar {
+  background-color:  rgba(96, 112, 255, 1);
+  width: 100%;
+  height: 2px;
+  margin: 2px;
+  border-radius: 9px;
+  z-index: 2;
 }
 
 .contact-icons {
@@ -106,11 +146,6 @@ body {
 .contact-icons img {
   width: 2rem;
   height: 2rem;
-}
-
-.logo button img {
-  width: 1.8rem;
-  height: 1.2rem;
 }
 
 .contact-icons img:hover,
@@ -706,11 +741,6 @@ input:invalid {
   border: 1px solid rgb(236, 34, 34);
 }
 
-.logo button {
-  border-style: none;
-  background-color: rgba(255, 255, 255, 1);
-}
-
 .resume a:hover {
   background: #6070ff;
   box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
@@ -924,4 +954,15 @@ footer {
 #get-resume a:hover {
   background-color: #6070ff;
   color: rgba(255, 255, 255, 1);
+}
+
+#close {
+  position: absolute;
+  font-family: 'Comfortaa';
+  right: 26px;
+  top: 25px;
+  line-height: 29px;
+  font-size: 40px;
+  z-index: 2;
+  color: white;
 }
