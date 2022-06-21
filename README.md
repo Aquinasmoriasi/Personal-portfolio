@@ -6,11 +6,11 @@ This project lists the projects I have done over time. It includes the source co
 HTML and CSS
 
 ## Getting Started
-This project can be accessed at my [Github account](https://github.com/Ghostman747) by anyone as it is a public repository. To access it;
-- copy this link `https://github.com/Ghostman747/Personal-portfolio/.git`.
+This project can be accessed at my [Github account](https://github.com/Aquinasmoriasi) by anyone as it is a public repository. To access it;
+- copy this link `https://github.com/Aquinasmoriasi/Personal-portfolio.git`.
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone https://github.com/Ghostman747/Personal-portfolio/`.
+- write `git clone https://github.com/Aquinasmoriasi/Personal-portfolio.git`.
 - go to the repository folder in your command prompt and open `index.html` file
 
 For any queries or suggestions, you can reach me at any of the channels listed below.
