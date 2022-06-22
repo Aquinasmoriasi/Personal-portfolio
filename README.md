@@ -26,6 +26,7 @@ For any queries or suggestions, you can reach me at any of the channels listed b
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Aquinasmoriasi/Personal-portfolio/issues).
+The live version of this project can be found at [https://aquinasmoriasi.github.io/Personal-portfolio/](https://aquinasmoriasi.github.io/Personal-portfolio/)
 
 ## Show your support
 
