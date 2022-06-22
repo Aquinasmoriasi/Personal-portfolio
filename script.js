@@ -50,15 +50,26 @@ navLink3.addEventListener('click', () => {
 
 //popups section
 
-const projectOneMobile = {
-  highlight: 'img',
-  header: 'h2',
-  
+// const projectOneMobile = {
+//   highlight: 'img',
+//   header: 'h2',
+//   otherProjects: '.highlights',
+//   projectDescription: '.project1-description-p',
+//   techDetails: '.project1-tech-details',
+//   getResume: '.resume'
+// }
 
-
-
-}
-
+let project = document.querySelectorAll('.resume');
+let body = document.querySelectorAll('body');
+project.addEventListener('click', () => {
+  document.createElement('div');
+  div.classList.add('popup');
+  const popup = document.querySelector('.popup');
+  body.appendChild('popup');
+  popup.style.width = '70vw';
+  popup.style.height = '70vh';
+  div.style.backgroundColor = 'red';
+})
 
 {/* <section class="project1">
            <img src="./images/project1.jpg" alt="project1-snapshot">

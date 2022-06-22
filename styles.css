@@ -20,13 +20,14 @@ body {
   height: 4rem;
 }
 
-.resume a {
+.resume {
   text-decoration: none;
   color: rgba(57, 109, 242, 1);
   width: 12.4rem;
   height: 4.8rem;
   font-weight: 500;
   border: 0.1rem solid rgba(57, 109, 242, 1);
+  background-color: #fff;
   border-radius: 0.8rem;
   padding: 1.6rem;
   display: flex;
@@ -37,6 +38,19 @@ body {
   font-size: 1.7rem;
   line-height: 2.4rem;
 }
+
+.resume:hover {
+  background: #6070ff;
+  box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
+  color: #fff;
+  cursor: pointer;
+}
+
+.resume:active {
+  color: rgba(255, 255, 255, 1);
+  background: #2230d2;
+}
+
 
 .technical-details img {
   width: 30.3rem;
@@ -571,18 +585,6 @@ body {
   margin-right: 0.8rem;
 }
 
-.resume {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 0;
-}
-
-#get-resume {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 0;
-}
-
 .skills ul {
   list-style-type: disc;
 }
@@ -762,29 +764,21 @@ input:invalid {
   border: 1px solid rgb(236, 34, 34);
 }
 
-.resume a:hover {
-  background: #6070ff;
-  box-shadow: 0 0.8rem 1.6rem rgba(64, 83, 252, 0.24);
-  color: #fff;
-}
-
-.resume a:active {
-  color: rgba(255, 255, 255, 1);
-  background: #2230d2;
-}
-
-#get-resume a {
+#get-resume {
   text-decoration: none;
   color: rgba(57, 109, 242, 1);
   width: 13.8rem;
-  height: 2.4rem;
+  height: 4.8rem;
   font-weight: 500;
   border: 1px solid rgba(57, 109, 242, 1);
   border-radius: 1.6rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.7rem;
   line-height: 2.4rem;
-  padding: 1.2rem;
+  padding: 1.2rem 0;
+  background-color: #fff;
 }
 
 footer {
@@ -972,7 +966,7 @@ footer {
   display: none;
 }
 
-#get-resume a:hover {
+#get-resume:hover {
   background-color: #6070ff;
   color: rgba(255, 255, 255, 1);
 }
