@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 html {
   background-color: rgba(229, 229, 229, 0.3);
   font-size: 62.5%;
@@ -589,7 +590,8 @@ body {
   list-style-type: disc;
 }
 
-.lang-buttons li {
+.lang-buttons li,
+#pj1-lang-buttons li {
   list-style-type: none;
 }
 
@@ -969,4 +971,108 @@ footer {
 #get-resume:hover {
   background-color: #6070ff;
   color: rgba(255, 255, 255, 1);
+}
+
+#pj1 {
+  position: absolute;
+  height: 71.3rem;
+  top: 10px;
+  z-index: 2;
+  box-sizing: inherit;
+  padding: 0 0 1.6rem 1.6rem;
+  margin: 1.6rem;
+  border: 2px solid red;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+#pj1-h2 {
+  font-family: "poppins", sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  letter-spacing: 0;
+  text-align: left;
+  height: 3.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: -0.2rem;
+  color: rgba(23, 43, 77, 1);
+  opacity: 1;
+}
+
+#pj1 img {
+  width: 96%;
+  height: auto;
+  align-self: flex-start;
+}
+
+.project1-description-p {
+  width: 98%;
+  margin-top: -1.5rem;
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+#link-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 96%;
+  padding-top: 1.6rem;
+  margin: 0;
+}
+
+#source-btn {
+  display: flex;
+  justify-content: space-around;
+  width: 45%
+}
+
+#live-btn {
+  display: flex;
+  justify-content: space-around;
+  width: 45%
+}
+
+#divider {
+  border-bottom: 1px solid #ebecf0;
+  width: 95%;
+}
+
+#pj1-lang-buttons {
+  width: 70%;
+  justify-content: space-between;
+  margin-top: -3.9rem;
+}
+
+#pj1-lang-buttons button {
+  font-size: 12px;
+  font-family: 'poppins', sans-serif;
+  font-weight: 500;
+  line-height: 16px;;
+  text-align: center;
+  color: rgba(96, 112, 255, 1);
+  border-radius: 0.8rem;
+  background-color: #ebebff;
+  border: none;
+  letter-spacing: 0.06rem;
+  padding: 0.5rem 1.5rem;
+}
+
+#close-btn {
+  position: absolute;
+  font-size: 30px;
+  right: 2rem;
+  top: 1.8rem;
+  font-family: 'comfortaa', cursive;
+  color: #67798e;
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scaleX(1.3) scaleY(1.3);
 }
