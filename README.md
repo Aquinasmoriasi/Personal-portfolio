@@ -2,7 +2,7 @@
 # Personal portfolio project
 This project lists the projects I have done over time. It includes the source code for the website containing my portfolio and other supporting files. It was built for mobile platforms therefore you will get the best experience using the website. 
 
-##Built With
+## Built With
 HTML and CSS
 
 ## Getting Started
