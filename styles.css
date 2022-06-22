@@ -974,11 +974,11 @@ footer {
 }
 
 #pj1 {
+  /* display: none; */
   position: absolute;
   height: 71.3rem;
   top: 10px;
-  z-index: 2;
-  box-sizing: inherit;
+  z-index: 10;
   padding: 0 0 1.6rem 1.6rem;
   margin: 1.6rem;
   border: 2px solid red;
@@ -1000,13 +1000,13 @@ footer {
   margin-top: 1.2rem;
   margin-bottom: -0.2rem;
   color: rgba(23, 43, 77, 1);
-  opacity: 1;
 }
 
 #pj1 img {
   width: 96%;
   height: auto;
   align-self: flex-start;
+  padding-top: 0.5rem;
 }
 
 .project1-description-p {
