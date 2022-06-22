@@ -2,7 +2,7 @@
 # Personal portfolio project
 This project lists the projects I have done over time. It includes the source code for the website containing my portfolio and other supporting files. It was built for mobile platforms therefore you will get the best experience using the website. 
 
-##Built With
+## Built With
 HTML and CSS
 
 ## Getting Started
@@ -26,6 +26,7 @@ For any queries or suggestions, you can reach me at any of the channels listed b
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Aquinasmoriasi/Personal-portfolio/issues).
+The live version of this project can be found at [https://aquinasmoriasi.github.io/Personal-portfolio/](https://aquinasmoriasi.github.io/Personal-portfolio/)
 
 ## Show your support
 
