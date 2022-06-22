@@ -146,6 +146,26 @@
     order: 3;
   }
 
+  .project1:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project2:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project3:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project4:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
   .project2 img {
     position: absolute;
     left: 50vw;
@@ -446,6 +466,10 @@
   #contact-form button {
     align-self: center;
     margin-left: 15.3rem;
+  }
+
+  #contact-form button:hover {
+    border: 2px solid white;
   }
 
   .skills {
