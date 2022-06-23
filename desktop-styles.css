@@ -566,11 +566,11 @@
     top: 10px;
     z-index: 10;
     margin: 5%;
-    border: 2px solid red;
-    padding: 2.4rem;
+    border: 1px solid #ebecf0;
+    padding: 2rem 2.4rem 2.4rem 2.4rem;
     border-radius: 16px;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
   }
 
   .project1-tech-details-dt {
@@ -583,14 +583,14 @@
   
   #pj1-h2-dt {
     font-family: "poppins", sans-serif;
-    font-size: 3.2rem;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 4.4rem;
+    line-height: 5.2rem;
     letter-spacing: 0;
     text-align: left;
     height: 3.6rem;
     margin-top: 1.2rem;
-    color: rgba(23, 43, 77, 1);
+    color: #091e42;
     margin-bottom: 1.5rem;
   }
   
@@ -677,8 +677,8 @@
   #close-btn-dt {
     position: absolute;
     font-size: 30px;
-    right: 2rem;
-    top: 1.8rem;
+    right: 3.6rem;
+    top: 4.4rem;
     font-family: 'comfortaa', cursive;
     color: #67798e;
     opacity: 0.8;
@@ -691,5 +691,13 @@
   }
   .highlights-dt .not-canopy-alt1 {
     padding-bottom: 2.5rem;
+  }
+  
+  #bg {
+    position: absolute;
+    height: 844vh;
+    width: 100vw;
+    z-index: 5;
+    mix-blend-mode: multiply;
   }
 }
