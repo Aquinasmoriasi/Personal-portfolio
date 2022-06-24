@@ -696,9 +696,10 @@
   #bg {
     position: absolute;
     display: none;
-    height: 844vh;
+    height: 1077vh;
     width: 100vw;
     z-index: 5;
     mix-blend-mode: multiply;
+    background-color: #c1c7d0;
   }
 }
