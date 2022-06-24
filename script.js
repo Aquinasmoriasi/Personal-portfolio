@@ -54,13 +54,12 @@ const projectOneCard = {
   name: `Tonic`,
   description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
   featuredImage: `src="./images/project1.jpg" alt="project1-snapshot`,
-  technologies: `['html', 'css', 'javascript']`,
+  technologies: ["html", "css", "javascript"],
   liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
   sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
 }
 
-let pj1 =` 
-<div id="bg-mobile"></div>
+let pj1 =`
 <h2 id="pj1-h2">${projectOneCard.name}</h2>
 <a href="#"><span id="close-btn">&times;</span></a>
 <div class="highlights">
@@ -80,7 +79,7 @@ let pj1 =`
        <span class="not-canopy4">2015</span>
     </div>
 <img ${projectOneCard.featuredImage}">
-<p class="project1-description-p">${projectOneCard.name}</p>
+<p class="project1-description-p">${projectOneCard.description}</p>
  </div>
 <div class="project1-tech-details">
  <ul id="pj1-lang-buttons">
@@ -109,31 +108,26 @@ let pj1 =`
   </button>  
 </div>
 `
-
-let close = document.querySelector('#close-btn');
+const closeDt = document.querySelector('#close-btn-dt');
+const desktopBg = document.querySelector('#bg');
+const mobileBg = document.querySelector('#bg-mobile');
 const landingPage = document.querySelector('#landing-page');
 const projectOneDetails = document.querySelector('#project-one-details');
 const section = document.createElement('section');
 section.innerHTML = pj1;
 section.setAttribute('id', 'pj1');
 let project1 = document.querySelector('#pj1');
-         
+let body = document.querySelector('body');
+const close = document.querySelector('#close-btn');
 
 projectOneDetails.addEventListener('click', () => {
-  window.scroll({ top: 0,left: 0,behavior: 'smooth'});
-  landingPage.append(section);
+  window.scroll({ top: 0,left: 0});
+  mobileBg.style.display ='block';
   landingPage.style.filter = 'blur(9px)';
-})
-
-close.addEventListener('click', () => {
-  window.scroll({ top: 100,left: 0,behavior: 'smooth'});
-  landingPage.remove(section);
-})
-
-
+  body.append(section);  
+});
 
 // let pj1Dt = `
-// <div id="bg"></div>
 //     <section id="pj1-dt">
 //         <h2 id="pj1-h2-dt">Tonic</h2>
 //         <a href="#"><span id="close-btn-dt">&times;</span></a>

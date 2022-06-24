@@ -981,7 +981,7 @@ footer {
   z-index: 10;
   padding: 0 0 1.6rem 1.6rem;
   margin: 1.6rem;
-  border: 2px solid red;
+  border: 1px solid rgba(223, 225, 230, 1);
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -1078,9 +1078,14 @@ footer {
 }
 
 #bg-mobile {
+  display: none;
   position: absolute;
-  height: 844vh;
-  width: 100vw;
+  top: 0;
+  left: 0;
   z-index: 5;
+  height: 660vh;
+  width: 100vw;
+  filter: blur(1px);
   mix-blend-mode: multiply;
+  background-color: #c1c7d0;
 }
