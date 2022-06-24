@@ -239,8 +239,7 @@ const projectsPage = document.querySelector('#projects');
 const landingPage = document.querySelector('#landing-page');
 const aboutPage = document.querySelector('#about-me');
 const footer = document.querySelector('footer');
-const projectOneDetails = document.querySelector('#project-one-details');
-const projectOneDetailsDt = document.querySelector('.project3 .resume');
+const popupBtn = document.querySelectorAll('.resume');
 const section = document.createElement('section');
 let project1 = document.querySelector('#pj1');
 let project1Dt = document.querySelector('#pj1-dt');
@@ -265,22 +264,25 @@ function closeMenuDt() {
 }
 
 if (mediaQuery.matches) {
-  projectOneDetails.addEventListener('click', () => {
-    window.scroll({ top: 0, left: 0});
-    mobileBg.style.display ='block';
-    section.innerHTML = pj1;
-    section.setAttribute('id', 'pj1');
-    landingPage.style.filter = 'blur(9px)';
-    aboutPage.style.filter = 'blur(9px)';
-    footer.style.filter = 'blur(9px)';
-    projectsPage.style.filter = 'blur(9px)';
-    body.append(section);
-    section.style.display = 'flex';
-    let closeBtn = document.querySelector('.close-btn');
-  closeBtn.addEventListener('click', closeMenu);
-});
+  popupBtn.forEach(btn => {
+    btn.addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0});
+      mobileBg.style.display ='block';
+      section.innerHTML = pj1;
+      section.setAttribute('id', 'pj1');
+      landingPage.style.filter = 'blur(9px)';
+      aboutPage.style.filter = 'blur(9px)';
+      footer.style.filter = 'blur(9px)';
+      projectsPage.style.filter = 'blur(9px)';
+      body.append(section);
+      section.style.display = 'flex';
+      let closeBtn = document.querySelector('.close-btn');
+    closeBtn.addEventListener('click', closeMenu);
+  });
+  });
 } else {
-  projectOneDetailsDt.addEventListener('click', () => {
+  popupBtn.forEach(btn => {
+  btn.addEventListener('click', () => {
     window.scroll({ top: 0, left: 0});
     desktopBg.style.display ='block';
     section.innerHTML = pj1Dt;
@@ -294,4 +296,5 @@ if (mediaQuery.matches) {
     let closeBtnDt = document.querySelector('#close-btn-dt');
     closeBtnDt.addEventListener('click', closeMenuDt);
   });
+});
 };
