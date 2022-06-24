@@ -68,6 +68,60 @@ const projectOneCardDt = {
   sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
 }
 
+const projectTwoCard = {
+  name: `Multi-Post Stories`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+  featuredImage: `src="./images/project2.jpg" alt="project2-snapshot`,
+  technologies: ["html", "css", "javascript"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+
+const projectTwoCardDt = {
+  name: `Multi-Post Stories`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+  featuredImage: `src="./images/pj4-alt.jpg" alt="project4-snapshot"`,
+  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+const projectThreeCard = {
+  name: `Tonic`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+  featuredImage: `src="./images/project3.jpg" alt="project3-snapshot`,
+  technologies: ["html", "css", "javascript"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+
+const projectThreeCardDt = {
+  name: `Tonic`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+  featuredImage: `src="./images/pj3-alt.jpg" alt="project3-snapshot"`,
+  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+const projectFourCard = {
+  name: `Multi-Post Stories`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+  featuredImage: `src="./images/project4.jpg" alt="project4-snapshot`,
+  technologies: ["html", "css", "javascript"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+
+const projectFourCardDt = {
+  name: `Tonic`,
+  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
+  featuredImage: `src="./images/pj2-alt.jpg" alt="project2-snapshot"`,
+  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
+  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
+  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
+}
+
+const projectObjectArray = ['projectOneCard', 'projectTwoCard','projectThreeCard','projectFourCard'];
+
 let pj1 =`
 <h2 id="pj1-h2">${projectOneCard.name}</h2>
   <span class="close-btn">&times;</span>

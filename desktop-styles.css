@@ -696,7 +696,7 @@
   #bg {
     position: absolute;
     display: none;
-    height: 1077vh;
+    height: 844vh;
     width: 100vw;
     z-index: 5;
     mix-blend-mode: multiply;
