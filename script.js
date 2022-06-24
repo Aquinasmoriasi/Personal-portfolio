@@ -61,7 +61,7 @@ const projectOneCard = {
 
 let pj1 =`
 <h2 id="pj1-h2">${projectOneCard.name}</h2>
-<a href="#"><span id="close-btn">&times;</span></a>
+  <span class="close-btn">&times;</span>
 <div class="highlights">
     <span class="canopy4">CANOPY</span>
        <span>
@@ -108,7 +108,7 @@ let pj1 =`
   </button>  
 </div>
 `
-const closeDt = document.querySelector('#close-btn-dt');
+const mediaQuery = window.matchMedia('(max-width: 768px)');
 const desktopBg = document.querySelector('#bg');
 const mobileBg = document.querySelector('#bg-mobile');
 const landingPage = document.querySelector('#landing-page');
@@ -118,14 +118,25 @@ section.innerHTML = pj1;
 section.setAttribute('id', 'pj1');
 let project1 = document.querySelector('#pj1');
 let body = document.querySelector('body');
-const close = document.querySelector('#close-btn');
 
-projectOneDetails.addEventListener('click', () => {
-  window.scroll({ top: 0,left: 0});
-  mobileBg.style.display ='block';
-  landingPage.style.filter = 'blur(9px)';
-  body.append(section);  
+
+
+if (mediaQuery.matches) {
+  projectOneDetails.addEventListener('click', () => {
+    window.scroll({ top: 0, left: 0});
+    mobileBg.style.display ='block';
+    landingPage.style.filter = 'blur(9px)';
+    body.append(section);
+    section.style.display = 'flex';
+    const closeBtn = document.querySelector('.close-btn');
+    function closeMenu() {
+      mobileBg.style.display ='none';
+      landingPage.style.filter = 'blur(0)';
+      section.style.display = 'none';
+    }
+  closeBtn.addEventListener('click', closeMenu);
 });
+}
 
 // let pj1Dt = `
 //     <section id="pj1-dt">
