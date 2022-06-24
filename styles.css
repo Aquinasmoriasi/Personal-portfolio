@@ -974,7 +974,7 @@ footer {
 }
 
 #pj1 {
-  /* display: none; */
+  display: block;
   position: absolute;
   height: 71.3rem;
   top: 10px;
@@ -1075,4 +1075,12 @@ footer {
   opacity: 0.8;
   cursor: pointer;
   transform: scaleX(1.3) scaleY(1.3);
+}
+
+#bg-mobile {
+  position: absolute;
+  height: 844vh;
+  width: 100vw;
+  z-index: 5;
+  mix-blend-mode: multiply;
 }
