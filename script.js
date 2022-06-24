@@ -222,15 +222,7 @@ if (mediaQuery.matches) {
     landingPage.style.filter = 'blur(9px)';
     body.append(section);
     section.style.display = 'block';
-   // const mediaQuery = window.matchMedia('(max-width: 768px)');
-// const desktopBg = document.querySelector('#bg');
-// const mobileBg = document.querySelector('#bg-mobile');
-// const landingPage = document.querySelector('#landing-page');
-// const projectDetailsDt = document.querySelector('.resume');
-//const section = document.createElement('section');
-//let body = document.querySelector('body');
-// section.style.display = 'flex';
-// let closeBtn = document.querySelector('.close-btn');
-// closeBtn.addEventListener('click', closeMenu);
-});
+    let closeBtnDt = document.querySelector('#close-btn-dt');
+    closeBtnDt.addEventListener('click', closeMenuDt);
+  });
 };
