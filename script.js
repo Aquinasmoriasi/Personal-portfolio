@@ -48,81 +48,27 @@ navLink3.addEventListener('click', () => {
   logo.style.filter = 'blur(0)';
 });
 
-//popups section
+// popups section
 
 const projectOneCard = {
-  name: `Tonic`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-  featuredImage: `src="./images/project1.jpg" alt="project1-snapshot`,
-  technologies: ["html", "css", "javascript"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
+  name: 'Tonic',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+  featuredImage: 'src="./images/project1.jpg" alt="project1-snapshot',
+  technologies: ['html', 'css', 'javascript'],
+  liveLink: 'https://aquinasmoriasi.github.io/Personal-portfolio/',
+  sourceLink: 'https://github.com/Aquinasmoriasi/Personal-portfolio',
+};
 
 const projectOneCardDt = {
-  name: `Tonic`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-  featuredImage: `src="./images/pj1-alt.jpg" alt="project4-snapshot"`,
-  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
+  name: 'Tonic',
+  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry\'s  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+  featuredImage: 'src="./images/pj1-alt.jpg" alt="project4-snapshot"',
+  technologies: ['html', 'css', 'javascript', 'github', 'Ruby', 'Bootstrap'],
+  liveLink: 'https://aquinasmoriasi.github.io/Personal-portfolio/',
+  sourceLink: 'https://github.com/Aquinasmoriasi/Personal-portfolio',
+};
 
-const projectTwoCard = {
-  name: `Multi-Post Stories`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-  featuredImage: `src="./images/project2.jpg" alt="project2-snapshot`,
-  technologies: ["html", "css", "javascript"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-
-const projectTwoCardDt = {
-  name: `Multi-Post Stories`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-  featuredImage: `src="./images/pj4-alt.jpg" alt="project4-snapshot"`,
-  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-const projectThreeCard = {
-  name: `Tonic`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-  featuredImage: `src="./images/project3.jpg" alt="project3-snapshot`,
-  technologies: ["html", "css", "javascript"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-
-const projectThreeCardDt = {
-  name: `Tonic`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-  featuredImage: `src="./images/pj3-alt.jpg" alt="project3-snapshot"`,
-  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-const projectFourCard = {
-  name: `Multi-Post Stories`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-  featuredImage: `src="./images/project4.jpg" alt="project4-snapshot`,
-  technologies: ["html", "css", "javascript"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-
-const projectFourCardDt = {
-  name: `Tonic`,
-  description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ummy text of the printing and typesetting release of Lorem Ipsum has been the industry's  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea`,
-  featuredImage: `src="./images/pj2-alt.jpg" alt="project2-snapshot"`,
-  technologies: ["html", "css", "javascript", "github", "Ruby", "Bootstrap"],
-  liveLink: `https://aquinasmoriasi.github.io/Personal-portfolio/`,
-  sourceLink: `https://github.com/Aquinasmoriasi/Personal-portfolio`  
-}
-
-const projectObjectArray = ['projectOneCard', 'projectTwoCard','projectThreeCard','projectFourCard'];
-
-let pj1 =`
+const pj1 = `
 <h2 id="pj1-h2">${projectOneCard.name}</h2>
   <span class="close-btn">&times;</span>
 <div class="highlights">
@@ -230,7 +176,7 @@ const pj1Dt = `
                 <path d="M17.9989 7.46114C17.9989 6.32124 17.6329 5.25043 16.9342 4.31779C17.2004 3.41969 17.2669 2.27979 17.2004 0.967185C17.1671 0.414508 16.7345 0 16.2022 0C15.9028 0 13.3741 0.0345423 11.9101 1.38169C10.6458 1.1399 9.31495 1.1399 8.01736 1.38169C6.58667 0.0345423 4.05802 0 3.7253 0C3.19296 0 2.76042 0.414508 2.72715 0.967185C2.62734 2.27979 2.72715 3.41969 2.99333 4.31779C2.29462 5.28497 1.92863 6.35579 1.92863 7.46114C1.92863 9.8791 3.7253 12.0553 6.45358 13.0915C6.35377 13.2988 6.28723 13.5406 6.22068 13.7824C3.32604 13.4715 1.9619 10.7427 1.89536 10.639C1.66246 10.1209 1.06357 9.91364 0.56449 10.19C0.0654144 10.4318 -0.134216 11.0535 0.131958 11.5717C0.198501 11.7444 2.02845 15.4404 6.05432 15.8549V18.9637C6.05432 19.5509 6.48686 20 7.05248 20H12.875C13.4406 20 13.8732 19.5509 13.8732 18.9637V14.8532C13.8732 14.2314 13.7401 13.6442 13.5072 13.1261C16.2022 12.0553 17.9989 9.91364 17.9989 7.46114Z" fill="#6070FF"/>
             </svg>
           </button>  
-        </div>`
+        </div>`;
 
 const mediaQuery = window.matchMedia('(max-width: 768px)');
 const desktopBg = document.querySelector('#bg');
@@ -241,12 +187,10 @@ const aboutPage = document.querySelector('#about-me');
 const footer = document.querySelector('footer');
 const popupBtn = document.querySelectorAll('.resume');
 const section = document.createElement('section');
-let project1 = document.querySelector('#pj1');
-let project1Dt = document.querySelector('#pj1-dt');
-let body = document.querySelector('body');
+const body = document.querySelector('body');
 
 function closeMenu() {
-  mobileBg.style.display ='none';
+  mobileBg.style.display = 'none';
   landingPage.style.filter = 'blur(0)';
   aboutPage.style.filter = 'blur(0)';
   footer.style.filter = 'blur(0)';
@@ -255,7 +199,7 @@ function closeMenu() {
 }
 
 function closeMenuDt() {
-  desktopBg.style.display ='none';
+  desktopBg.style.display = 'none';
   landingPage.style.filter = 'blur(0)';
   aboutPage.style.filter = 'blur(0)';
   footer.style.filter = 'blur(0)';
@@ -264,10 +208,10 @@ function closeMenuDt() {
 }
 
 if (mediaQuery.matches) {
-  popupBtn.forEach(btn => {
+  popupBtn.forEach((btn) => {
     btn.addEventListener('click', () => {
-      window.scroll({ top: 0, left: 0});
-      mobileBg.style.display ='block';
+      window.scroll({ top: 0, left: 0 });
+      mobileBg.style.display = 'block';
       section.innerHTML = pj1;
       section.setAttribute('id', 'pj1');
       landingPage.style.filter = 'blur(9px)';
@@ -276,25 +220,25 @@ if (mediaQuery.matches) {
       projectsPage.style.filter = 'blur(9px)';
       body.append(section);
       section.style.display = 'flex';
-      let closeBtn = document.querySelector('.close-btn');
-    closeBtn.addEventListener('click', closeMenu);
-  });
+      const closeBtn = document.querySelector('.close-btn');
+      closeBtn.addEventListener('click', closeMenu);
+    });
   });
 } else {
-  popupBtn.forEach(btn => {
-  btn.addEventListener('click', () => {
-    window.scroll({ top: 0, left: 0});
-    desktopBg.style.display ='block';
-    section.innerHTML = pj1Dt;
-    section.setAttribute('id', 'pj1-dt');
-    landingPage.style.filter = 'blur(9px)';
-    aboutPage.style.filter = 'blur(9px)';
-    footer.style.filter = 'blur(9px)';
-    projectsPage.style.filter = 'blur(9px)';
-    body.append(section);
-    section.style.display = 'block';
-    let closeBtnDt = document.querySelector('#close-btn-dt');
-    closeBtnDt.addEventListener('click', closeMenuDt);
+  popupBtn.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.scroll({ top: 0, left: 0 });
+      desktopBg.style.display = 'block';
+      section.innerHTML = pj1Dt;
+      section.setAttribute('id', 'pj1-dt');
+      landingPage.style.filter = 'blur(9px)';
+      aboutPage.style.filter = 'blur(9px)';
+      footer.style.filter = 'blur(9px)';
+      projectsPage.style.filter = 'blur(9px)';
+      body.append(section);
+      section.style.display = 'block';
+      const closeBtnDt = document.querySelector('#close-btn-dt');
+      closeBtnDt.addEventListener('click', closeMenuDt);
+    });
   });
-});
-};
+}

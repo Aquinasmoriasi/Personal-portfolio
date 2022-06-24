@@ -146,26 +146,6 @@
     order: 3;
   }
 
-  .project1:hover {
-    cursor: pointer;
-    border: 2px solid #a7aeff;
-  }
-
-  .project2:hover {
-    cursor: pointer;
-    border: 2px solid #a7aeff;
-  }
-
-  .project3:hover {
-    cursor: pointer;
-    border: 2px solid #a7aeff;
-  }
-
-  .project4:hover {
-    cursor: pointer;
-    border: 2px solid #a7aeff;
-  }
-
   .project2 img {
     position: absolute;
     left: 50vw;
@@ -336,12 +316,51 @@
     list-style-type: none;
   }
 
+  .input button {
+    width: 14rem;
+    height: 4.8rem;
+    border-style: none;
+    border-radius: 0.8rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    color: #6070ff;
+    margin-bottom: 4.5rem;
+    padding-bottom: 0;
+  }
+
   .project2 .lang-buttons li:first-child {
     padding-left: 4.8rem;
   }
 
   .project4 .lang-buttons li:first-child {
     padding-left: 4.8rem;
+  }
+
+  #pj1-lang-buttons-dt li,
+  #pj1-lang-buttons-dt1 li {
+    list-style: none;
+    margin-top: -2.3rem;
+  }
+
+  #pj1-lang-buttons-dt button,
+  #pj1-lang-buttons-dt1 button {
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(96, 112, 255, 1);
+    border-radius: 0.8rem;
+    background-color: #ebebff;
+    border: none;
+    letter-spacing: 0.03rem;
+    padding: 0.2rem 1rem;
+    margin-right: 1rem;
+  }
+
+  #pj1-lang-buttons-dt1 {
+    margin-top: -1.5rem;
   }
 
   #top-menu ul li {
@@ -450,19 +469,6 @@
     padding-left: 15.3rem;
   }
 
-  .input button {
-    width: 14rem;
-    height: 4.8rem;
-    border-style: none;
-    border-radius: 0.8rem;
-    font-weight: 400;
-    font-size: 1.7rem;
-    line-height: 2.4rem;
-    color: #6070ff;
-    margin-bottom: 4.5rem;
-    padding-bottom: 0;
-  }
-
   #contact-form button {
     align-self: center;
     margin-left: 15.3rem;
@@ -558,7 +564,7 @@
     display: block;
   }
 
- /* popup section */
+  /* popup section */
 
   #pj1-dt {
     position: absolute;
@@ -580,7 +586,7 @@
     right: 4.9rem;
     bottom: 34rem;
   }
-  
+
   #pj1-h2-dt {
     font-family: "poppins", sans-serif;
     font-size: 4rem;
@@ -593,26 +599,26 @@
     color: #091e42;
     margin-bottom: 1.5rem;
   }
-  
+
   #pj1-dt img {
     width: 100%;
     height: 58.6rem;
     align-self: flex-start;
     padding-top: 2rem;
   }
-  
+
   .project1-description-p-dt {
     width: 69%;
     height: 38.2rem;
     font-size: 16px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     color: #344563;
     padding-top: 3rem;
   }
-  
+
   #link-buttons-dt {
     display: flex;
     position: absolute;
@@ -624,21 +630,21 @@
     bottom: 28rem;
     right: 0;
   }
-  
+
   #source-btn-dt {
     display: flex;
     justify-content: space-around;
     width: 14.2rem;
     height: 2rem;
   }
-  
+
   #live-btn-dt {
     display: flex;
     justify-content: space-around;
     width: 14.2rem;
     height: 2rem;
   }
-  
+
   #divider-dt {
     border-bottom: 1px solid #ebecf0;
     width: 23.3%;
@@ -648,32 +654,6 @@
     bottom: 34rem;
   }
 
-  #pj1-lang-buttons-dt li,
-  #pj1-lang-buttons-dt1 li {
-    list-style: none;
-    margin-top: -2.3rem;
-  }
-  
-  #pj1-lang-buttons-dt button,
-  #pj1-lang-buttons-dt1 button {
-    font-size: 12px;
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
-    line-height: 16px;;
-    text-align: center;
-    color: rgba(96, 112, 255, 1);
-    border-radius: 0.8rem;
-    background-color: #ebebff;
-    border: none;
-    letter-spacing: 0.03rem;
-    padding: 0.2rem 1rem;
-    margin-right: 1rem;
-  }
-
-  #pj1-lang-buttons-dt1 {
-    margin-top: -1.5rem;
-  }
-  
   #close-btn-dt {
     position: absolute;
     font-size: 30px;
@@ -687,12 +667,33 @@
   }
 
   .highlights-dt .not-canopy-alt {
-   padding-bottom: 2.2rem;
+    padding-bottom: 2.2rem;
   }
+
   .highlights-dt .not-canopy-alt1 {
     padding-bottom: 2.5rem;
   }
-  
+
+  .project1:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project2:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project3:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
+  .project4:hover {
+    cursor: pointer;
+    border: 2px solid #a7aeff;
+  }
+
   #bg {
     position: absolute;
     display: none;

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
 html {
   background-color: rgba(229, 229, 229, 0.3);
   font-size: 62.5%;
@@ -51,7 +52,6 @@ body {
   color: rgba(255, 255, 255, 1);
   background: #2230d2;
 }
-
 
 .technical-details img {
   width: 30.3rem;
@@ -182,6 +182,20 @@ body {
 .contact-icons img {
   width: 2rem;
   height: 2rem;
+}
+
+.project2 {
+  width: 32.7rem;
+  height: 59.6rem;
+  border: 1px solid rgba(223, 225, 230, 1);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.6rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 1 1 auto;
+  border-radius: 1.6rem;
 }
 
 .contact-icons img:hover,
@@ -364,6 +378,10 @@ body {
   box-sizing: border-box;
 }
 
+.frameworks li {
+  list-style-type: none;
+}
+
 .project1 {
   width: 32.7rem;
   height: 55.2rem;
@@ -390,20 +408,6 @@ body {
   flex: 1 1 auto;
   border-radius: 1.6rem;
   background-color: rgba(255, 255, 255, 1);
-}
-
-.project2 {
-  width: 32.7rem;
-  height: 59.6rem;
-  border: 1px solid rgba(223, 225, 230, 1);
-  background-color: rgba(255, 255, 255, 1);
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1.6rem;
-  box-sizing: border-box;
-  flex-direction: column;
-  flex: 1 1 auto;
-  border-radius: 1.6rem;
 }
 
 .project4 {
@@ -481,6 +485,12 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
   width: 37.5rem;
+}
+
+.contact-icons2 li {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
 }
 
 .project1-description p {
@@ -668,12 +678,6 @@ body {
   align-items: stretch;
 }
 
-.contact-icons2 li {
-  display: flex;
-  align-items: stretch;
-  padding: 0;
-}
-
 .skills {
   list-style-type: none;
   display: flex;
@@ -724,10 +728,6 @@ body {
   height: 23.6rem;
   width: 100%;
   justify-content: space-between;
-}
-
-.frameworks li {
-  list-style-type: none;
 }
 
 .droplist {
@@ -974,7 +974,6 @@ footer {
 }
 
 #pj1 {
-  display: none;
   position: absolute;
   height: 71.3rem;
   top: 10px;
@@ -1013,7 +1012,7 @@ footer {
   width: 98%;
   margin-top: -1.5rem;
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -1031,13 +1030,13 @@ footer {
 #source-btn {
   display: flex;
   justify-content: space-around;
-  width: 45%
+  width: 45%;
 }
 
 #live-btn {
   display: flex;
   justify-content: space-around;
-  width: 45%
+  width: 45%;
 }
 
 #divider {
@@ -1055,7 +1054,7 @@ footer {
   font-size: 12px;
   font-family: 'poppins', sans-serif;
   font-weight: 500;
-  line-height: 16px;;
+  line-height: 16px;
   text-align: center;
   color: rgba(96, 112, 255, 1);
   border-radius: 0.8rem;
