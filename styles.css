@@ -974,7 +974,7 @@ footer {
 }
 
 #pj1 {
-  display: block;
+  display: none;
   position: absolute;
   height: 71.3rem;
   top: 10px;

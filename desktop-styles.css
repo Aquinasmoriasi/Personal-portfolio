@@ -352,11 +352,11 @@
   }
 
   .project2 .resume {
-    padding-left: 4.8rem;
+    margin-left: 4.8rem;
   }
 
   .project4 .resume {
-    padding-left: 4.8rem;
+    margin-left: 4.8rem;
   }
 
   .project3-description p {
@@ -695,6 +695,7 @@
   
   #bg {
     position: absolute;
+    display: none;
     height: 844vh;
     width: 100vw;
     z-index: 5;
