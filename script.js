@@ -244,5 +244,26 @@ if (mediaQuery.matches) {
 }
 
 /*validation Section*/
-const email = document.querySelector('.email');
-const small = document.createElement('small');
+// const email = document.getElementById('email');
+// const error = document.querySelector('.error');
+// const isLowerCase = (str) => str === str.toLowerCase();
+// document.getElementById('submit').addEventListener('submit', (event) => {
+//   if (!isLowerCase(email)) {
+//     event.preventDefault();
+//     error.innerHTML = 'Please enter a lowercase email';
+//   }
+// });
+
+document.querySelector('#submit').addEventListener('click', (event) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error.innerHTML = 'Please write a lowercase email';
+    error.style.color = 'red';
+  }
+});
+
+
+
