@@ -242,3 +242,7 @@ if (mediaQuery.matches) {
     });
   });
 }
+
+/*validation Section*/
+const email = document.querySelector('.email');
+const small = document.createElement('small');

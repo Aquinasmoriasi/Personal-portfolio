@@ -762,10 +762,6 @@ button:hover {
   cursor: pointer;
 }
 
-input:invalid {
-  border: 1px solid rgb(236, 34, 34);
-}
-
 #get-resume {
   text-decoration: none;
   color: rgba(57, 109, 242, 1);
