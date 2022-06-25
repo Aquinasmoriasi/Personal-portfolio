@@ -262,6 +262,9 @@ document.querySelector('#submit').addEventListener('click', (event) => {
     event.preventDefault();
     error.innerHTML = 'Please write a lowercase email';
     error.style.color = 'red';
+    setTimeout(() => {
+      error.innerHTML = '';
+    }, 5000);
   }
 });
 
