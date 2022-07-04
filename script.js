@@ -719,3 +719,36 @@ document.querySelector('#submit').addEventListener('click', (event) => {
     }, 5000);
   }
 });
+/*local storage*/
+const name1 = document.getElementById('name');
+const email2 = document.getElementById('mail');
+const message3 = document.getElementById('msg');
+
+if (!localStorage.getItem('form')) {
+  const form = {
+    nameValue: '',
+    emailValue: '',
+    textValue: '',
+  };
+  localStorage.setItem('form', JSON.stringify(form));
+}
+
+function onChanged(input) {
+  input.addEventListener('change', () => {
+    const form = {
+      nameValue: name1.value,
+      emailValue: email2.value,
+      messageValue: message3.value,
+    };
+    window.localStorage.setItem('form', JSON.stringify(form));
+  });
+}
+
+const formData = JSON.parse(window.localStorage.getItem('form'));
+name1.value = formData.nameValue;
+email2.value = formData.emailValue;
+message3.value = formData.messageValue;
+
+onChanged(name1);
+onChanged(email2);
+onChanged(message3);
