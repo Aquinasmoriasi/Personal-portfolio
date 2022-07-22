@@ -33,7 +33,7 @@ The live version of this project can be found at [https://aquinasmoriasi.github.
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- This project was based on [This figma template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)
 - Hat tip to anyone whose code was used
 - My coding partners and friends who helped me through the project among others.
 
