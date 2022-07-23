@@ -3,6 +3,7 @@
 html {
   background-color: rgba(229, 229, 229, 0.3);
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -271,28 +272,9 @@ body {
   box-sizing: border-box;
 }
 
-.canopy1 {
-  color: #344563;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  padding-right: 1.2rem;
-  margin: 0;
-}
-
-.canopy2 {
-  color: #344563;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  padding-right: 1.2rem;
-  margin: 0;
-}
-
+.canopy1,
+.canopy2,
+.canopy3,
 .canopy4 {
   color: #344563;
   font-family: 'poppins', sans-serif;
@@ -304,50 +286,9 @@ body {
   margin: 0;
 }
 
-.canopy3 {
-  color: #344563;
-  font-family: 'poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.3rem;
-  line-height: 1.6rem;
-  padding-right: 1.2rem;
-  margin: 0;
-}
-
-.not-canopy1 {
-  font-family: 'poppins', sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.6rem;
-  letter-spacing: 0;
-  color: #7a869a;
-  padding: 0.5rem 1.2rem 0;
-  margin: 0;
-}
-
-.not-canopy2 {
-  font-family: 'poppins', sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.6rem;
-  letter-spacing: 0;
-  color: #7a869a;
-  padding: 0.5rem 1.2rem 0;
-  margin: 0;
-}
-
-.not-canopy3 {
-  font-family: 'poppins', sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.6rem;
-  letter-spacing: 0;
-  color: #7a869a;
-  padding: 0.5rem 1.2rem 0;
-  margin: 0;
-}
-
+.not-canopy1,
+.not-canopy2,
+.not-canopy3,
 .not-canopy4 {
   font-family: 'poppins', sans-serif;
   font-size: 1.3rem;

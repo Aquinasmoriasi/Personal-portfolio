@@ -381,7 +381,7 @@ const pj2Dt = `
         <h2 id="pj1-h2-dt">${projectTwoCardDt.name}</h2>
         <span id="close-btn-dt" class="close-btn">&times;</span>
         <div class="highlights highlights-dt">
-            <span class="canopy-alt">CANOPY</span>
+            <span class="canopy-alt">Uber</span>
                <span>
                <svg class="not-canopy-alt1" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                <circle cx="4" cy="4" r="4" fill="#C1C7D0"/>
